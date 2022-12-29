@@ -1,0 +1,51 @@
+body {
+    font-size: $fs-md;
+    font-style: $main-font;
+    color: $color1;
+}
+
+h1,
+h2,
+h4,
+h5 {
+    color: $color2;
+    font-weight: 400;
+}
+
+h2 {
+    font: #{$fs-xxlg+2}/55px;
+    }
+
+h3 {
+    color: $color5;
+    font-size: $fs-xxlg/52px;
+}
+
+h4{
+    font-size: $fs-xlg/36px;
+}
+
+h5 {
+    font-size: #{$fs-md+8}/24px;
+}
+
+h6 {
+    font-size: #{$fs-sm+2}/21px;
+    letter-spacing: 0.5px;
+    color: $color4;
+}
+
+a {
+    font-size: $fs-sm/14.4px;
+
+    letter-spacing: 2px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    font-size: $fs-sm/60px;
+    letter-spacing: 2px;
+    color: $color4;
+}

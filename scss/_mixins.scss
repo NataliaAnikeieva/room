@@ -1,0 +1,57 @@
+
+@function rem($pxval) {
+    @if not unitless($pxval) {
+      $pxval: strip-units($pxval);
+    }
+  
+    $base: $em-base;
+    @if not unitless($base) {
+      $base: strip-units($base);
+    }
+    @return ($pxval / $base) * 1rem;
+}
+
+$vw-viewport: 1440; 
+@function get-vw($font){
+$vw-context: $vw-viewport * 0.01 * 1px;
+  @return $font / $vw-context * 1vw;
+  @return $font;
+}
+
+// usage: @include transition(opacity visibility);
+@mixin transition(
+	$properties: all,
+	$duration: .5s,
+	$method: ease,
+	$delay: 0s) {
+		$value: ();
+		@each $property in $properties {
+			@if length($value) > 0 {
+				$value: append($value, unquote(",") #{$property} $duration $method $delay);
+			}
+			@else {
+				$value: append($value, #{$property} $duration $method $delay);
+			}
+		}
+		transition: $value;
+}
+// usage: @include flex(wrap, null, center, center);
+@mixin flex($wrap: unset, $direction: normal, $justify: normal, $align: normal) {
+	display: flex;
+	@include flex-wrap($wrap);
+  @include flex-direction($direction);
+  @include flex-justify($justify);
+  @include flex-align($align);
+}
+@mixin flex-direction($direction: normal) {
+ flex-direction: $direction;
+}
+@mixin flex-align($align: normal) {
+ align-items: $align;
+}
+@mixin flex-justify($justify: normal) {
+	justify-content: $justify;
+}
+@mixin flex-wrap($wrap: normal) {
+	flex-wrap: $wrap;
+}

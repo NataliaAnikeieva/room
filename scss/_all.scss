@@ -1,0 +1,87 @@
+@import "../scss/_variables";
+@import "../scss/_mixins";
+@import "../scss/typography";
+
+html,body {
+    height: 100%; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;  
+}
+
+// ================
+
+.gray {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: $fs-sm;
+    color: $color1;
+    background-color: $bgc1;
+    padding: 10px 25px;
+    &__contact {
+        color: $color1;
+    }
+    &__phone {
+        margin: 0 25px;
+        }
+}
+
+.select {
+    border: none;
+    background-color: $bgc1;
+}
+
+.white__header {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase; 
+    justify-content: space-between;
+    padding: 25px;
+    margin-left: 25px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    &__link{
+        color: $color5;
+        margin-left: 100px;
+    }
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    &__link {
+        padding-left: 25px;
+    }
+}
+
+// ====
+.design__content {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 0 0;
+
+}
+.design__title {
+    width: 365px;
+}
+
+.design__text {
+    width: 570px;
+}

@@ -1,15 +1,21 @@
 {
-  "name": "fls-gulp",
+  "name": "test",
   "version": "1.0.0",
-  "description": "gulp",
-  "main": "index.html",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "fls",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.27.11",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.56.1",
+    "imagemin-pngquant": "^9.0.2",
+    "gulp-imagemin": "^7.1.0"
   }
 }

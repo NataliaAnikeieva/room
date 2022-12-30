@@ -13,7 +13,7 @@ const path = {
      css: 'build/css/',
      js: 'build/js/',
      fonts: 'build/fonts/',
-     img: 'build/images/',
+     img: 'build/img/',
     },
     // Пути откуда брать исходники
     src: {
@@ -21,7 +21,7 @@ const path = {
      scss: 'src/scss/*.scss',
      js: 'src/js/*.js',
      fonts: 'src/fonts/**/*.*',
-     img: 'src/images/**/*.*',
+     img: 'src/img/**/*.*',
     },
    };
 

@@ -1,8 +1,7 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Roboto:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular&display=swap);
 body {
-  font-size: 16px;
-  font-style: "Roboto";
+  font: 400 16px "Roboto";
   color: #AAAAAA;
 }
 
@@ -15,38 +14,45 @@ h5 {
 }
 
 h2 {
-  font: 48px/55px;
+  font-size: 48px;
+  line-height: 55px;
 }
 
 h3 {
   color: #000;
-  font-size: 0.8846153846;
+  font-size: 46px;
+  line-height: 52px;
 }
 
 h4 {
-  font-size: 0.8888888889;
+  font-size: 32px;
+  line-height: 32px;
 }
 
 h5 {
-  font-size: 24px/24px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
 }
 
 h6 {
-  font-size: 14px/21px;
+  font-size: 14px;
+  line-height: 24px;
   letter-spacing: 0.5px;
   color: #fff;
 }
 
 a {
-  font-size: 0.8333333333;
   letter-spacing: 2px;
+  color: #AAAAAA;
 }
 a:hover {
   text-decoration: underline;
 }
 
 button {
-  font-size: 0.2;
+  font-size: 12px;
+  line-height: 24px;
   letter-spacing: 2px;
   color: #fff;
 }
@@ -691,8 +697,7 @@ ul {
 }
 
 body {
-  font-size: 16px;
-  font-style: "Roboto";
+  font: 400 16px "Roboto";
   color: #AAAAAA;
 }
 
@@ -705,38 +710,45 @@ h5 {
 }
 
 h2 {
-  font: 48px/55px;
+  font-size: 48px;
+  line-height: 55px;
 }
 
 h3 {
   color: #000;
-  font-size: 0.8846153846;
+  font-size: 46px;
+  line-height: 52px;
 }
 
 h4 {
-  font-size: 0.8888888889;
+  font-size: 32px;
+  line-height: 32px;
 }
 
 h5 {
-  font-size: 24px/24px;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
 }
 
 h6 {
-  font-size: 14px/21px;
+  font-size: 14px;
+  line-height: 24px;
   letter-spacing: 0.5px;
   color: #fff;
 }
 
 a {
-  font-size: 0.8333333333;
   letter-spacing: 2px;
+  color: #AAAAAA;
 }
 a:hover {
   text-decoration: underline;
 }
 
 button {
-  font-size: 0.2;
+  font-size: 12px;
+  line-height: 24px;
   letter-spacing: 2px;
   color: #fff;
 }

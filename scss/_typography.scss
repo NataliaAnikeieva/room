@@ -1,6 +1,5 @@
 body {
-    font-size: $fs-md;
-    font-style: $main-font;
+    font: 400 $fs-md $main-font;
     color: $color1;
 }
 
@@ -13,39 +12,45 @@ h5 {
 }
 
 h2 {
-    font: #{$fs-xxlg+2}/55px;
+    font-size: #{$fs-xxlg+2};
+    line-height: 55px;
     }
 
 h3 {
     color: $color5;
-    font-size: $fs-xxlg/52px;
+    font-size: $fs-xxlg;
+    line-height: 52px;
 }
 
 h4{
-    font-size: $fs-xlg/36px;
+    font-size: $fs-xlg;
+    line-height: 32px;
 }
 
 h5 {
-    font-size: #{$fs-md+8}/24px;
+    font-family: $main-font;
+    font-size: #{$fs-md+8};
+    line-height: 24px;
 }
 
 h6 {
-    font-size: #{$fs-sm+2}/21px;
+    font-size: #{$fs-sm+2};
+    line-height: 24px;
     letter-spacing: 0.5px;
     color: $color4;
 }
 
 a {
-    font-size: $fs-sm/14.4px;
-
     letter-spacing: 2px;
+    color: $color1;
     &:hover {
         text-decoration: underline;
     }
 }
 
 button {
-    font-size: $fs-sm/60px;
+    font-size: $fs-sm;
+    line-height: 24px;
     letter-spacing: 2px;
     color: $color4;
 }

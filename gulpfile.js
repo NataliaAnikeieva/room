@@ -15,15 +15,15 @@ const path = {
 		css: 'build/css/',
 		js: 'build/js/',
 		fonts: 'build/fonts/',
-		img: 'build/images/',
+		img: 'build/img/',
 	},
 	// Пути откуда брать исходники
 	src: {
-		pug: 'src/pug/**/*.pug', //берем все файлы с разширением паг из папки паг
+		pug: 'src/pug/*.pug', //берем все файлы с разширением паг из папки паг
 		scss: 'src/scss/*.scss', //аналогично
 		js: 'src/js/*.js', //аналогично
 		fonts: 'src/fonts/**/*.*', //берем все файлы из всех папок с любым разширением
-		img: 'src/images/**/*.*', //аналогично
+		img: 'src/img/**/*.*', //аналогично
 	},
 };
 // таск для компиляции стилей

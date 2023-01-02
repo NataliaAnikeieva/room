@@ -1,34 +1,40 @@
-header.header 
-    .header__container   
-        .gray__header.gray
-            .gray__contact 
-                a(href="") Contact sales
-            .gray__phone 
-                a(href="tel: +380638255777") 676885585
-            select.select(name="#") 
-                    option(value="1") US
-                    option(value="2") EN 
-        .white__header
-            h1.header__logo 
-                img(src="img/logo.png", alt="")
-            .white__navigation 
-                ul.navigation__list.navigation 
-                    li.navigation__items 
-                        a.navigation__link(href="") Products
-                    li.navigation__items 
-                        a.navigation__link(href="") Exsplore
-                    li.navigation__items 
-                        a.navigation__link(href="") Shop
-            .white__location
+header.header
+    .header__top 
+        .container
+            ul.contacts 
+                li.contacts__item
+                    a.contacts__link(href="")  Contact sales
+                li.contacts__item 
+                    a.contacts__link(href="tel: +380638255777") 676885585
+                li.contacts__item
+                    select.select(name="#") 
+                            option(value="1") US
+                            option(value="2") EN 
+    .header__bottom 
+        .container
+            .header__white
+                h1.header__logo 
+                    img(src="img/logo.png", alt="")
+                ul.nav__list 
+                    li.nav__item 
+                        a.nav__link(href="") Products
+                    li.nav__item 
+                        a.nav__link(href="") Exsplore
+                    li.nav__item 
+                        a.nav__link(href="") Shop 
                 ul.location__list.location 
-                    li.location__items 
-                        a.location__link(href="") 
+                    li.location__item 
+                        a(href="")   
                             span.fa-solid.fa-location-dot
-                    li.location__items
-                        a.location__link(href="") Showrooms 
-                    li.location__items 
-                        a.location__link(href="") 
+                        a.location__link(href="") Showrooms            
+                    li.location__item 
+                        a(href="") 
                             span.fa-solid.fa-cart-shopping
+
+
+            
+
+                
 
                             
 

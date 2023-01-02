@@ -19,38 +19,41 @@
   </head>
   <body>
     <wrapper> 
-      <header class="header"> 
-        <div class="header__container">  
-          <div class="gray__header gray">
-            <div class="gray__contact"> <a href="">Contact sales</a></div>
-            <div class="gray__phone"> <a href="tel: +380638255777">676885585</a></div>
-            <select class="select" name="#"> 
-              <option value="1">US</option>
-              <option value="2">EN </option>
-            </select>
+      <header class="header">
+        <div class="header__top"> 
+          <div class="container">
+            <ul class="contacts"> 
+              <li class="contacts__item"><a class="contacts__link" href=""> Contact sales</a></li>
+              <li class="contacts__item"> <a class="contacts__link" href="tel: +380638255777">676885585</a></li>
+              <li class="contacts__item">
+                <select class="select" name="#"> 
+                  <option value="1">US</option>
+                  <option value="2">EN </option>
+                </select>
+              </li>
+            </ul>
           </div>
-          <div class="white__header">
-            <h1 class="header__logo"> <img src="img/logo.png" alt=""></h1>
-            <div class="white__navigation"> 
-              <ul class="navigation__list navigation"> 
-                <li class="navigation__items"> <a class="navigation__link" href="">Products</a></li>
-                <li class="navigation__items"> <a class="navigation__link" href="">Exsplore</a></li>
-                <li class="navigation__items"> <a class="navigation__link" href="">Shop</a></li>
+        </div>
+        <div class="header__bottom"> 
+          <div class="container">
+            <div class="header__white">
+              <h1 class="header__logo"> <img src="img/logo.png" alt=""></h1>
+              <ul class="nav__list"> 
+                <li class="nav__item"> <a class="nav__link" href="">Products</a></li>
+                <li class="nav__item"> <a class="nav__link" href="">Exsplore</a></li>
+                <li class="nav__item"> <a class="nav__link" href="">Shop </a></li>
               </ul>
-            </div>
-            <div class="white__location">
               <ul class="location__list location"> 
-                <li class="location__items"> <a class="location__link" href=""> <span class="fa-solid fa-location-dot"></span></a></li>
-                <li class="location__items"><a class="location__link" href="">Showrooms </a></li>
-                <li class="location__items"> <a class="location__link" href=""> <span class="fa-solid fa-cart-shopping"></span></a></li>
+                <li class="location__item"> <a href="">  <span class="fa-solid fa-location-dot"></span></a><a class="location__link" href="">Showrooms            </a></li>
+                <li class="location__item"> <a href=""> <span class="fa-solid fa-cart-shopping"></span></a></li>
               </ul>
             </div>
           </div>
         </div>
       </header>
       <div class="content">
-        <div class="design__container"> 
-          <div class="design__img"> <img src="img/design.png" alt=""></div>
+        <div class="design__img"> <img src="img/design.png" alt=""></div>
+        <div class="container">        
           <div class="design__content"> 
             <h2 class="design__title">Design that inspires a better way to work.</h2>
             <p class="design__text">
@@ -58,6 +61,22 @@
               office design.
             </p>
           </div>
+        </div>
+        <div class="container"> 
+          <ul class="four-rooms__list"> 
+            <li class="four-rooms__item"> <img src="img/phone.png" alt="">
+              <h5 class="foor-rooms__title">Phone Booth</h5>
+            </li>
+            <li class="four-rooms__item"> <img src="img/focus.png" alt="">
+              <h5 class="foor-rooms__title">Focus Room</h5>
+            </li>
+            <li class="four-rooms__item"> <img src="img/meeting.png" alt="">
+              <h5 class="foor-rooms__title">Meeting Room</h5>
+            </li>
+            <li class="four-rooms__item"> <img src="img/open.png" alt="">
+              <h5 class="foor-rooms__title">Open Meeting Room</h5>
+            </li>
+          </ul>
         </div>
       </div>
       <!--SCRIPT LINKS-->

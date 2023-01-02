@@ -8,12 +8,11 @@ h2,
 h4,
 h5 {
     color: $color2;
-    font-weight: 400;
 }
 
 h2 {
     font-size: #{$fs-xxlg+2};
-    line-height: 55px;
+    line-height: 58px;
     }
 
 h3 {
@@ -53,4 +52,9 @@ button {
     line-height: 24px;
     letter-spacing: 2px;
     color: $color4;
+}
+
+p {
+    font-size: #{$fs-md+8};
+    line-height: 40px;
 }

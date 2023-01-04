@@ -1,5 +1,7 @@
 $(document).ready(function () {
 	initImgReplace();
+	initSlider();
+	initScrollTop();
 });
 function initImgReplace() {
 	'use strict;';
@@ -17,5 +19,22 @@ function initImgReplace() {
 			});
 			img.remove();
 		}
+	});
+}
+
+function initSlider() {
+	$('.browsers.list').slick({
+		centerMode: true,
+		infinite: true,
+		centerPadding: '350px',
+		slidesToShow: 1,
+		speed: 500,
+	});
+}
+
+function initScrollTop() {
+	$('.vertical__button').click(function () {
+		$('html, body').animate({ scrollTop: 0 }, 'slow');
+		return false;
 	});
 }

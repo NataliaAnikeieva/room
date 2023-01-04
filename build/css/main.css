@@ -14,7 +14,7 @@ h5 {
 
 h2 {
     font-size: 48px;
-    line-height: 58px;
+    line-height: 56px;
 }
 
 h3 {
@@ -154,7 +154,7 @@ main {
 }
 
 .location__link {
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 span {
@@ -176,11 +176,11 @@ span:hover {
 }
 
 .design__title {
-    width: 365px;
+    max-width: 365px;
 }
 
 .design__text {
-    width: 570px;
+    max-width: 570px;
 }
 
 .four-rooms__list {
@@ -192,10 +192,375 @@ span:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding-top: 210px;
 }
 
 .four-rooms__item {
     width: 50%;
+    margin-bottom: 70px;
+}
+
+.foor-rooms__title {
+    padding-top: 25px;
+}
+
+.brands__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding-top: 215px;
+}
+
+.icons__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.brands__subtitle {
+    margin: 30px 0 125px 0;
+    color: rgba(74, 74, 74, 0.2901960784);
+}
+
+.icons__item {
+    width: 16.66%;
+    margin-bottom: 50px;
+}
+
+.icons__link {
+    -webkit-transition: color 0.5 ease;
+    -o-transition: color 0.5 ease;
+    transition: color 0.5 ease;
+}
+.icons__link:hover {
+    opacity: 0.7;
+}
+
+.products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 85px;
+}
+
+.products__text {
+    padding: 25px 0 75px 0;
+    color: #46856E;
+    font-size: 14px;
+}
+
+.product__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.product__item {
+    width: 33.33%;
+}
+
+.product__img {
+    text-align: center;
+    margin-left: -30%;
+}
+
+.products__title {
+    max-width: 1080px;
+}
+
+.product__subtitle {
+    padding: 25px 0;
+}
+
+.product__column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.product__content {
+    max-width: 325px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.reviews__section {
+    padding-top: 240px;
+}
+
+.reviews__imeges {
+    height: 800px;
+    background-image: url("../img/reviews.jpg");
+    background-position: cover;
+}
+
+.reviews__title {
+    text-align: center;
+}
+
+.reviews__list {
+    padding: 120px 0 120px 200px;
+    max-width: 400px;
+}
+
+.reviews__items {
+    margin-bottom: 40px;
+}
+
+.reviews__text {
+    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 10px 0;
+}
+
+.reviews__icon {
+    -webkit-transition: opacity 0.5s ease 0s , visibility 0.5s ease 0s;
+    -o-transition: opacity 0.5s ease 0s , visibility 0.5s ease 0s;
+    transition: opacity 0.5s ease 0s , visibility 0.5s ease 0s;
+}
+.reviews__icon:hover {
+    opacity: 0.7;
+}
+
+.reviews__sign {
+    color: #fff;
+}
+
+.stars__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stars__item {
+    -webkit-transition: opacity 0.5s ease 0s , visibility 0.5s ease 0s;
+    -o-transition: opacity 0.5s ease 0s , visibility 0.5s ease 0s;
+    transition: opacity 0.5s ease 0s , visibility 0.5s ease 0s;
+}
+.stars__item:hover {
+    opacity: 0.7;
+}
+
+.work__section {
+    padding-top: 140px;
+}
+
+.gray__title {
+    color: #AAAAAA;
+    max-width: 880px;
+}
+
+.black__title {
+    margin: 25px 0 135px 0;
+}
+
+.work__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.work__card {
+    padding: 258px 90px;
+}
+
+.work__text {
+    max-width: 310px;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 24px;
+}
+
+.risk__img {
+    margin-bottom: 150px;
+}
+
+.risk__content {
+    background-color: rgba(242, 242, 242, 0.9490196078);
+    background-repeat: 2px;
+    width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+
+.risk__title {
+    padding-top: 65px;
+    text-align: center;
+}
+
+.risk__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 65px 0;
+}
+
+.risk__subtitle {
+    margin-top: 20px;
+    color: #1A1A1A;
+    font-size: 12px;
+}
+
+.risk__sign {
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: #2B2B2B;
+    margin-top: 80px;
+}
+
+.footer__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 100px;
+    width: 1200px;
+    position: relative;
+}
+
+.footer__logo {
+    -webkit-transition: opacity 0.5s ease 0s;
+    -o-transition: opacity 0.5s ease 0s;
+    transition: opacity 0.5s ease 0s;
+}
+.footer__logo:hover {
+    opacity: 0.7;
+}
+
+.about {
+    margin-bottom: 45px;
+}
+
+.support {
+    margin-bottom: 20px;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+}
+
+.footer__item {
+    margin-bottom: 5px;
+}
+
+.addres {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.social__items {
+    padding-left: 15px;
+}
+.social__items:first-child {
+    padding-left: 0;
+}
+
+.footer__column4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.input__footer {
+    height: 55px;
+    width: 385px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    background-color: #2B2B2B;
+}
+
+.select__footer {
+    margin-top: 15px;
+    background-color: #2B2B2B;
+    border: none;
+    display: block;
+    margin-left: auto;
+}
+
+.checkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    margin-top: 60px;
+}
+
+.checkbox__text {
+    max-width: 370px;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin: 0 0 60px 20px;
+}
+
+.footer__signup {
+    font-size: 14px;
+}
+
+.footer__button {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    margin-top: -120px;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 /*NORMALIZE.CSS*/
@@ -726,6 +1091,27 @@ ul {
     padding: 0;
 }
 
+.button {
+    position: relative;
+    left: 45%;
+    max-width: 145px;
+    padding: 10px 25px;
+    background-color: #46856E;
+    -webkit-transition: color 0.5s ease 0s , background 0.5s ease 0s;
+    -o-transition: color 0.5s ease 0s , background 0.5s ease 0s;
+    transition: color 0.5s ease 0s , background 0.5s ease 0s;
+}
+.button:hover {
+    background-color: #2B2B2B;
+}
+
+.risk__button {
+    color: #fff;
+    font-size: 12px;
+    line-height: 60px;
+    text-align: center;
+}
+
 body {
     font: 400 16px "Roboto";
     color: #AAAAAA;
@@ -740,7 +1126,7 @@ h5 {
 
 h2 {
     font-size: 48px;
-    line-height: 58px;
+    line-height: 56px;
 }
 
 h3 {

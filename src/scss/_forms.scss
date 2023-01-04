@@ -1,0 +1,18 @@
+.button {
+    position: relative;
+    left: 45%;
+    max-width: 145px;
+    padding: 10px 25px;
+    background-color: $bgc4;
+    @include transition(color background);
+     &:hover {
+        background-color: $bgc2;
+     }
+}
+
+.risk__button {
+    color: $color4;
+    font-size: $fs-sm;
+    line-height: 60px;
+    text-align: center;
+}

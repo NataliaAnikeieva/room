@@ -1,8 +1,9 @@
 footer.footer 
     .container
         .footer__section 
-            .footer__logo 
-                img(src="img/footerlogo.png", alt="")
+            .footer__logo
+                a(href="")  
+                    img(src="img/footerlogo.png", alt="")
             .footer__column1
                 .about 
                     h6.footer__title About
@@ -93,14 +94,10 @@ footer.footer
                     select.select__footer(name="#") 
                         option(value="1") United States
                         option(value="2") EN
-                .checkbox 
-                    input.check(    
-                        type='checkbox'
-                        name='agreement'
-                    )
-                    p.checkbox__text  Yes. I would like to receive marketing communications from ROOM about product 
+                input#like.custom-checkbox(type='checkbox', name='like', value='yes')
+                label(for='like') Yes. I would like to receive marketing communications from ROOM about product 
                                       |updates and special offers. Please refer to ROOM’s Privacy Policy for more 
-                                      |information about how we process your data (including how to unsubscribe). 
+                                      |information about how we process your data (including how to unsubscribe).
                 .singup 
                     a.footer__signup(href="") Sign Up
         .footer__button     

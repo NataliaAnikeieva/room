@@ -1,4 +1,3 @@
-@import "../scss/_variables";
 @import "../scss/_mixins";
 @import "../scss/typography";
 
@@ -37,11 +36,6 @@ main {
     margin-right: 25px;
 }
 
-.select {
-    border: none;
-    background-color: $bgc1;
-}
-
 .header__nav {
     display: flex;
 }
@@ -61,18 +55,23 @@ main {
 
 .nav__list {
     display: flex;
+    margin-left: -100px;
 }
 
 .nav__item {
-    margin-left: 100px;
+    padding-left: 100px;
 }
 
 .location {
     display: flex;
 }
+.location__list {
+    margin-left: -50px;
+}
 
 .location__item {
-    margin-left: 50px;
+    padding-left: 50px;
+
 }
 
 .location__link {
@@ -105,13 +104,14 @@ span {
 .four-rooms__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding-top: 210px;
+    margin-left: -25px;
 }
 
 .four-rooms__item {
     width: 50%;
     margin-bottom: 70px;
+    padding-left: 25px;
 }
 
 .foor-rooms__title {
@@ -204,7 +204,6 @@ span {
 .reviews__imeges {
     height: 800px;
     background-image: url("../img/reviews.jpg");
-    background-position: cover;
 }
 
 .reviews__title {
@@ -228,7 +227,7 @@ span {
 }
 
 .reviews__icon {
-    @include transition(opacity visibility);
+    @include transition(opacity);
     &:hover {
         opacity: 0.7;
     }
@@ -242,7 +241,7 @@ span {
 }
 
 .stars__item {
-    @include transition(opacity visibility);
+    @include transition(opacity);
     &:hover{
         opacity: 0.7;
     }
@@ -278,6 +277,10 @@ span {
     line-height: 24px;
 }
 
+.block2 {
+    order:1;
+}
+
 // ======risk
 
 .risk__img {
@@ -301,8 +304,11 @@ span {
 .risk__list {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     margin: 65px 0;
+}
+
+.risk__item {
+    padding-left: 250px;
 }
 
 .risk__subtitle {
@@ -344,12 +350,9 @@ span {
 .support {
     margin-bottom: 20px;
 }
+
 .footer__title {
     margin-bottom: 20px;
-}
-
-.footer__item {
-    margin-bottom: 5px;
 }
 
 .addres {
@@ -374,47 +377,7 @@ span {
     align-items: flex-end;
 }
 
-.input__footer {
-    height: 55px;
-    width: 385px;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 3px;
-    background-color: $bgc2;
-}
-
-.select__footer {
-    margin-top: 15px;
-    background-color: $bgc2;
-    border: none;
-    display: block;
-    margin-left: auto;
-}
-
-.checkbox {
-    display: flex;
-    align-items: start;
-    margin-top: 60px;
-}
-
-.checkbox__text {
-    max-width: 370px;
-    font-size: $fs-sm;
-    line-height: 13px;
-    letter-spacing: 2.4px;
-    text-transform: uppercase;
-    margin: 0  0 60px 20px;
-}
-
 .footer__signup {
     font-size: #{$fs-sm+2};
 }
 
-.footer__button {
-    position: absolute;
-    right: 0;
-    text-align:center;
-    transform: rotate(-90deg);
-    margin-top: -120px;
-    text-transform: uppercase;
-    font-size: $fs-sm;
-}

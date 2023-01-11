@@ -67,11 +67,11 @@ main {
 }
 .location__list {
     margin-left: -50px;
+    display: flex;
 }
 
 .location__item {
     padding-left: 50px;
-
 }
 
 .location__link {
@@ -85,6 +85,7 @@ span {
     }
 }
 // ====
+
 .design__content {
     display: flex;
     justify-content: space-around;
@@ -199,11 +200,6 @@ span {
 
 .reviews__section {
     padding-top: 240px;
-}
-
-.reviews__imeges {
-    height: 800px;
-    background-image: url("../img/reviews.jpg");
 }
 
 .reviews__title {

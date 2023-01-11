@@ -1,1 +1,28 @@
-
++1) https://i.imgur.com/nBvEKfU.png - тут заверни картинку и текст в ссылку
++2) https://i.imgur.com/YctD9Pq.png - тут тоже в ссылку
++3) https://i.imgur.com/KMn8NcN.png - у ссылки забыла заглушку
+4) формс.сцсс - стили для инпута пиши тут и сделай кастомный чекбокс (https://highload.today/chekboksi-v-css/#1, https://itchief.ru/html-and-css/styling-checkbox-and-radio#how-to)
++5) иконс.сцсс - если не используется, удаляй
++6) https://i.imgur.com/TvSglt5.png - перенеси в формс.сцсс
+-7) на тег р добавь отступ по дизайну
++8) https://i.imgur.com/m3DOGNo.png - перенеси в типографику
++9) https://i.imgur.com/66CDZDR.png - перенеси в формс
++10) https://i.imgur.com/NOuRuBQ.png - пиши только то что при ховере/трансформации меняется
++11) https://i.imgur.com/3uAmLeC.png - перенеси в формс
++12) https://i.imgur.com/Ppecjm4.png - не забывай минусовым маржином вытягивать
++13) https://i.imgur.com/aACYPIA.png - отступы на итемах через паддинги делай и на ул вытягивай их
+14) что то у тебя с выравниванием не то
+-15) https://i.imgur.com/UJUy6kC.png - делай один контейнер после дива контент, те блоки которые вне контейнера можешь вытягивать минусовым маржином и паддингом. я тебе показывал как
++16) https://i.imgur.com/sYwA3X2.png - что то не так с выравниванием
+-17) https://i.imgur.com/bjCu1E6.png - перенеси картинку в хтмл, добавлю на нее джс что бы тянулось на всю ширину страницы
++18) https://i.imgur.com/KcfMrY9.png - вот тут сделай обертку и у ней список с картинками, добавлю джс туда
++19) https://i.imgur.com/kfrpyOg.png - вот тут тоже
++20) https://i.imgur.com/TmszP20.png - это будет просто ссылка, без обертки баттон
++21) https://i.imgur.com/kLITdNF.png - вот тут ссылка
++22) https://i.imgur.com/IQTVfeQ.png - минусовым маржином вытягивай отступ на итемах
++23) https://i.imgur.com/QIMFHn4.png - лого в ссылку
++24) верь заглушки на ссылках, по пропускала
++25) https://i.imgur.com/n74RW3c.png - отступна футере не по дизайну
++26) https://i.imgur.com/PQ4RMRd.png - лого в ссылку
++27) https://i.imgur.com/ihk5ZY3.png - это будет список с айтемами. могут все быть одинаковыми, а флексами расположение картинок менять
+28) 

@@ -52,6 +52,7 @@ a:hover {
 p {
     font-size: 24px;
     line-height: 40px;
+    margin-bottom: 20px;
 }
 
 html, body {
@@ -140,6 +141,9 @@ main {
 
 .location__list {
     margin-left: -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .location__item {
@@ -299,11 +303,6 @@ span:hover {
 
 .reviews__section {
     padding-top: 240px;
-}
-
-.reviews__imeges {
-    height: 800px;
-    background-image: url("../img/reviews.jpg");
 }
 
 .reviews__title {
@@ -1197,5 +1196,6 @@ a:hover {
 p {
     font-size: 24px;
     line-height: 40px;
+    margin-bottom: 20px;
 }
 /*# sourceMappingURL=maps/main.css.map */

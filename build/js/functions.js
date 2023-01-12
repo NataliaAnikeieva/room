@@ -7,7 +7,7 @@ function initImgReplace() {
 	'use strict;';
 	$('.design__img, .reviews__section').each(function () {
 		let imgHolder = $(this),
-			img = imgHolder.find('img'),
+			img = imgHolder.find('.img'),
 			imgSrc = img.attr('src');
 		if (!!imgHolder.length && !!img.length && !!imgSrc) {
 			imgHolder.css({

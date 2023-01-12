@@ -301,6 +301,11 @@ span {
     display: flex;
     align-items: center;
     margin: 65px 0;
+    &.slider {
+        .risk__item {
+            padding-left: 0;
+        }
+    }
 }
 
 .risk__item {

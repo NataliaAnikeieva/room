@@ -422,6 +422,9 @@ span:hover {
             align-items: center;
     margin: 65px 0;
 }
+.risk__list.slider .risk__item {
+    padding-left: 0;
+}
 
 .risk__item {
     padding-left: 250px;

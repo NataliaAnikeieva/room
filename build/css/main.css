@@ -167,9 +167,7 @@ span:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    padding: 100px 0 0 0;
+    padding: 100px 0 0 55px;
 }
 
 .design__title {
@@ -177,7 +175,8 @@ span:hover {
 }
 
 .design__text {
-    max-width: 570px;
+    padding-left: 135px;
+    max-width: 670px;
 }
 
 .four-rooms__list {
@@ -250,7 +249,7 @@ span:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-top: 85px;
+    padding: 85px 55px 0 55px;
 }
 
 .products__text {
@@ -301,12 +300,9 @@ span:hover {
     line-height: 24px;
 }
 
-.reviews__section {
-    padding-top: 240px;
-}
-
 .reviews__title {
     text-align: center;
+    padding-top: 240px;
 }
 
 .reviews__list {
@@ -452,7 +448,7 @@ span:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 100px;
+    padding: 100px 55px;
     width: 1200px;
     position: relative;
 }

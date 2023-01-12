@@ -88,16 +88,16 @@ span {
 
 .design__content {
     display: flex;
-    justify-content: space-around;
-    padding: 100px 0 0 0;
-
+    padding: 100px 0 0 55px;
 }
+
 .design__title {
     max-width: 365px;
 }
 
 .design__text {
-    max-width: 570px;
+    padding-left: 135px;
+    max-width: 670px;
 }
 
 // ===============four-rooms
@@ -155,7 +155,7 @@ span {
 .products {
     display: flex;
     flex-direction: column;
-    padding-top: 85px;
+    padding: 85px 55px 0 55px;
 }
 
 .products__text {
@@ -198,12 +198,11 @@ span {
 
 // ============reviews
 
-.reviews__section {
-    padding-top: 240px;
-}
+
 
 .reviews__title {
     text-align: center;
+    padding-top: 240px;
 }
 
 .reviews__list {
@@ -332,7 +331,7 @@ span {
 .footer__section {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
+    padding: 100px 55px;
     width: 1200px;
     position: relative;
 }

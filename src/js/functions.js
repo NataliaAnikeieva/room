@@ -23,9 +23,19 @@ function initImgReplace() {
 }
 function initSlider() {
 	'use strict;';
-	$('.slider__list, .risk__list.slider').slick({
+	$('.risk__list.slider').slick({
 		arrows: false,
 		dots: false,
+		draggable: true,
+		centerMode: true,
+		infinite: true,
+		centerPadding: '300px',
+		slidesToShow: 1,
+		speed: 500,
+	});
+	$('.slider__list').slick({
+		arrows: false,
+		dots: true,
 		draggable: true,
 		centerMode: true,
 		infinite: true,

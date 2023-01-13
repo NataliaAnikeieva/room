@@ -185,6 +185,7 @@ span {
 .product__subtitle {
     padding: 25px 0;
 }
+
 .product__column {
     display: flex;
     flex-direction: column;
@@ -285,7 +286,6 @@ span {
 .risk__content {
     background-color: $bgc3;
     background-repeat: 2px;
-    width: 1200px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -296,10 +296,11 @@ span {
     text-align: center;
 }
 
-.risk__list {
+.risk__list-col {
     display: flex;
     align-items: center;
-    margin: 65px 0;
+    justify-content: center;
+    margin: 65px 0 65px -250px;
     &.slider {
         .risk__item {
             padding-left: 0;
@@ -307,7 +308,7 @@ span {
     }
 }
 
-.risk__item {
+.risk__item-col {
     padding-left: 250px;
 }
 
@@ -332,7 +333,6 @@ span {
     display: flex;
     justify-content: space-between;
     padding: 100px 55px;
-    width: 1200px;
     position: relative;
 }
 

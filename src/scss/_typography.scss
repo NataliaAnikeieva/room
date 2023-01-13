@@ -1,7 +1,7 @@
 @import "../scss/_variables";
 
 body {
-    font: 400 $fs-md $main-font;
+    font: 400 get-vw($fs-md) $main-font;
     color: $color1;
 }
 
@@ -13,29 +13,29 @@ h5 {
 }
 
 h2 {
-    font-size: #{$fs-xxlg+2};
+    font-size: get-vw($fs-xxlg+2);
     line-height: 56px;
     }
 
 h3 {
     color: $color5;
-    font-size: $fs-xxlg;
+    font-size: get-vw($fs-xxlg);
     line-height: 52px;
 }
 
 h4{
-    font-size: $fs-xlg;
+    font-size: get-vw($fs-xlg);
     line-height: 32px;
 }
 
 h5 {
     font-family: $main-font;
-    font-size: #{$fs-md+8};
+    font-size: get-vw($fs-md+8);
     line-height: 24px;
 }
 
 h6 {
-    font-size: #{$fs-sm+2};
+    font-size: get-vw($fs-sm+2);
     line-height: 24px;
     letter-spacing: 0.5px;
     color: $color4;
@@ -50,7 +50,34 @@ a {
 }
 
 p {
-    font-size: #{$fs-md+8};
+    font-size: get-vw($fs-md+8);
     line-height: 40px;
     margin-bottom: 20px;
 }
+
+ @media (max-width: 768px) {
+
+ h2 {
+    line-height: 32px;
+    }
+
+h3 {
+    line-height: 36px;
+}
+
+h4{
+    line-height: 26px;
+}
+
+h5 {
+    line-height: 10px;
+}
+
+h6 {
+    line-height: 2px;
+}
+
+p {
+    line-height: 20px;
+}
+ }

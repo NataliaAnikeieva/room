@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular&display=swap);
 body {
-    font: 400 16px "Roboto";
+    font: 400 1.1111111111vw "Roboto";
     color: #AAAAAA;
 }
 
@@ -13,29 +13,29 @@ h5 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 3.3333333333vw;
     line-height: 56px;
 }
 
 h3 {
     color: #000;
-    font-size: 46px;
+    font-size: 3.1944444444vw;
     line-height: 52px;
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 2.2222222222vw;
     line-height: 32px;
 }
 
 h5 {
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 1.6666666667vw;
     line-height: 24px;
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 0.9722222222vw;
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #fff;
@@ -50,11 +50,31 @@ a:hover {
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.6666666667vw;
     line-height: 40px;
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    h2 {
+        line-height: 32px;
+    }
+    h3 {
+        line-height: 36px;
+    }
+    h4 {
+        line-height: 26px;
+    }
+    h5 {
+        line-height: 10px;
+    }
+    h6 {
+        line-height: 2px;
+    }
+    p {
+        line-height: 20px;
+    }
+}
 html, body {
     height: 100%;
 }
@@ -79,6 +99,7 @@ main {
 [class*=container] {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header__top {
@@ -118,18 +139,21 @@ main {
     padding: 25px 25px 25px 50px;
 }
 
+.header__logo {
+    z-index: 100;
+}
 .header__logo:hover {
     opacity: 0.7;
 }
 
-.nav__list {
+.navigation__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: -100px;
 }
 
-.nav__item {
+.navigation__item {
     padding-left: 100px;
 }
 
@@ -170,13 +194,9 @@ span:hover {
     padding: 100px 0 0 55px;
 }
 
-.design__title {
-    max-width: 365px;
-}
-
 .design__text {
     padding-left: 135px;
-    max-width: 670px;
+    max-width: 570px;
 }
 
 .four-rooms__list {
@@ -195,8 +215,12 @@ span:hover {
     padding-left: 25px;
 }
 
-.foor-rooms__title {
+.four-rooms__title {
     padding-top: 25px;
+}
+
+.room-img {
+    max-width: 100%;
 }
 
 .brands__list {
@@ -241,6 +265,10 @@ span:hover {
     opacity: 0.7;
 }
 
+.icons-img {
+    max-width: 100%;
+}
+
 .products {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -265,15 +293,21 @@ span:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-left: -20px;
 }
 
 .product__item {
     width: 33.33%;
+    padding-left: 20px;
 }
 
 .product__img {
     text-align: center;
     margin-left: -30%;
+}
+
+.product-img {
+    max-width: 100%;
 }
 
 .products__title {
@@ -375,15 +409,19 @@ span:hover {
 
 .work__text {
     max-width: 310px;
-    font-size: 16px;
     margin-top: 25px;
     line-height: 24px;
 }
 
-.block2 {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+.work-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.block1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
 }
 
 .risk__img {
@@ -476,8 +514,8 @@ span:hover {
 }
 
 .addres {
-    font-size: 13px;
     line-height: 15px;
+    font-size: 12px;
 }
 
 .social__list {
@@ -510,6 +548,190 @@ span:hover {
     font-size: 14px;
 }
 
+@media (max-width: 768px) {
+    .hamburger {
+        z-index: 100;
+        position: relative;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 60px;
+                flex: 0 0 60px;
+        height: 40px;
+        width: 60px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        left: 25%;
+        top: 20%;
+    }
+    .hamburger::before, .hamburger::after {
+        content: "";
+        background-color: #2B2B2B;
+        height: 4px;
+    }
+    .hamburger span {
+        height: 4px;
+        background-color: #2B2B2B;
+    }
+    .navigation {
+        z-index: 50;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        background-color: rgba(242, 242, 242, 0.9490196078);
+    }
+    .navigation__body {
+        padding: 20px;
+    }
+    .navigation__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: absolute;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        left: 10%;
+        top: 100%;
+        opacity: 0;
+        background-color: rgba(242, 242, 242, 0.9490196078);
+        padding: 20px 80px;
+        visibility: hidden;
+        -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+        -o-transition: opacity 0.3s ease, visibility 0.3s ease;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    .navigation__list.active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .navigation__item {
+        margin-bottom: 40px;
+    }
+    .navigation__item:last-child {
+        margin-bottom: 0;
+    }
+    .navigation__link {
+        font-size: 32px;
+    }
+    .header__logo {
+        position: fixed;
+        top: 5%;
+    }
+    .location__list {
+        position: fixed;
+        z-index: 100;
+        right: 30%;
+        top: 10%;
+    }
+    .design__text {
+        max-width: 400px;
+        padding-left: 80px;
+    }
+    .four-rooms__list {
+        padding-top: 50px;
+    }
+    .brands__subtitle {
+        margin-bottom: 50px;
+    }
+    .brands__list {
+        padding-top: 50px;
+    }
+    .icons__item {
+        width: 25%;
+    }
+    .reviews__title {
+        padding-top: 80px;
+    }
+    .reviews__list {
+        padding: 50px 0 50px 50px;
+        max-width: 250px;
+    }
+    .product__item {
+        width: 30%;
+    }
+    .work__section {
+        padding: 80px 55px 0 55px;
+    }
+    .black__title {
+        margin-bottom: 30px;
+    }
+    .work__items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .work__card {
+        padding: 50px 0;
+    }
+    .risk__list-col {
+        margin-left: -100px;
+    }
+    .risk__item-col {
+        padding-left: 100px;
+    }
+    .footer__section {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .footer__logo {
+        width: 35%;
+    }
+    .footer__list {
+        margin-bottom: 50px;
+    }
+    .footer__column3 {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .hamburger {
+        height: 30px;
+        width: 44px;
+        left: 30%;
+        top: 20%;
+    }
+    .design__text {
+        padding-left: 50px;
+        max-width: 300px;
+    }
+    .four-rooms__item {
+        width: 100%;
+    }
+    .icons__item {
+        width: 30%;
+    }
+    .product__list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .product__item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .risk__list-col {
+        margin-left: -95px;
+    }
+    .risk__item-col {
+        padding-left: 95px;
+    }
+}
 /*NORMALIZE.CSS*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
@@ -1044,6 +1266,10 @@ ul {
     max-width: 145px;
     padding: 10px 25px;
     background-color: #46856E;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #fff;
     -webkit-transition: color 0.5s ease 0s , background 0.5s ease 0s;
     -o-transition: color 0.5s ease 0s , background 0.5s ease 0s;
     transition: color 0.5s ease 0s , background 0.5s ease 0s;
@@ -1057,13 +1283,6 @@ ul {
     font-size: 12px;
     line-height: 60px;
     text-align: center;
-}
-
-button {
-    font-size: 12px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    color: #fff;
 }
 
 .select {
@@ -1154,12 +1373,66 @@ button {
             justify-content: center;
 }
 
-.slick-dots li {
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
     font-size: 0;
+    border: none;
+    height: 40px;
+    padding: 0 50px;
 }
 
+.slick-prev {
+    left: 0;
+    background: url("../img/arrow-left.svg") 0 0 no-repeat;
+    margin-left: 50px;
+}
+
+.slick-next {
+    right: 0;
+    background: url("../img/arrow-right.svg") 0 0 no-repeat;
+}
+
+.slick-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    font-size: 0;
+    margin-left: 10px;
+}
+
+.slick-active button {
+    background-color: #46856E;
+}
+
+.slick-track {
+    padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .button {
+        left: 40%;
+    }
+    .footer__button {
+        right: 75%;
+    }
+    .custom-checkbox + label {
+        max-width: 200px;
+    }
+    .custom-checkbox + label::before {
+        margin: -10px 20px 0 0;
+    }
+}
+@media (max-width: 576px) {
+    .button {
+        left: 37%;
+    }
+}
 body {
-    font: 400 16px "Roboto";
+    font: 400 1.1111111111vw "Roboto";
     color: #AAAAAA;
 }
 
@@ -1171,29 +1444,29 @@ h5 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 3.3333333333vw;
     line-height: 56px;
 }
 
 h3 {
     color: #000;
-    font-size: 46px;
+    font-size: 3.1944444444vw;
     line-height: 52px;
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 2.2222222222vw;
     line-height: 32px;
 }
 
 h5 {
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 1.6666666667vw;
     line-height: 24px;
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 0.9722222222vw;
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #fff;
@@ -1208,8 +1481,29 @@ a:hover {
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.6666666667vw;
     line-height: 40px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        line-height: 32px;
+    }
+    h3 {
+        line-height: 36px;
+    }
+    h4 {
+        line-height: 26px;
+    }
+    h5 {
+        line-height: 10px;
+    }
+    h6 {
+        line-height: 2px;
+    }
+    p {
+        line-height: 20px;
+    }
 }
 /*# sourceMappingURL=maps/main.css.map */

@@ -16,19 +16,22 @@ header.header
                 h1.header__logo
                     a(href="")  
                         img(src="img/logo.png", alt="")
-                ul.nav__list 
-                    li.nav__item 
-                        a.nav__link(href="#") Products
-                    li.nav__item 
-                        a.nav__link(href="#") Exsplore
-                    li.nav__item 
-                        a.nav__link(href="#") Shop 
+                nav#menu.navigation__body.navigation
+                    ul.navigation__list 
+                        li.navigation__item 
+                            a.navigation__link(href="#") Products
+                        li.navigation__item 
+                            a.navigation__link(href="#") Exsplore
+                        li.navigation__item 
+                            a.nav__link(href="#") Shop
+                    a(href="#menavigationnu").hamburger 
+                        span                   
                 ul.location__list 
                     li.location__item 
                         a(href="#")
                             span.fa-solid.fa-location-dot
                             span.location__link Showrooms            
-                    li.location__item 
+                    li.location__item.shopping 
                         a(href="3") 
                             span.fa-solid.fa-cart-shopping
 

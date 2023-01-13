@@ -4,6 +4,10 @@
     max-width: 145px;
     padding: 10px 25px;
     background-color: $bgc4;
+    font-size: $fs-sm;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: $color4;
     @include transition(color background);
      &:hover {
         background-color: $bgc2;
@@ -15,13 +19,6 @@
     font-size: $fs-sm;
     line-height: 60px;
     text-align: center;
-}
-
-button {
-    font-size: $fs-sm;
-    line-height: 24px;
-    letter-spacing: 2px;
-    color: $color4;
 }
 
 .select {
@@ -54,7 +51,7 @@ button {
     display: block;
     margin-left: auto;
 }
-    
+  //  ===================
 .custom-checkbox {
     position: absolute;
     z-index: -1;
@@ -90,13 +87,75 @@ button {
     background-color: $bgc2;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
   }
-
+// ===================
 .slick-dots {
   display: flex;
   text-align: center;
   justify-content: center;
 } 
 
-.slick-dots li {
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
   font-size: 0;
+  border: none;
+  height: 40px;
+  padding: 0 50px;
+}
+
+.slick-prev {
+  left: 0;
+  background: url("../img/arrow-left.svg") 0 0 no-repeat;
+  margin-left: 50px;
+}
+
+.slick-next {
+  right: 0;
+  background: url("../img/arrow-right.svg") 0 0 no-repeat;
+}
+
+.slick-dots button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  margin-left: 10px;
+}
+
+.slick-active button {
+  background-color: $bgc4;
+}
+
+.slick-track {
+  padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    left: 40%;
+  }
+
+  .footer__button {
+    right: 75%;
+}
+
+.custom-checkbox+label {
+  max-width: 200px;
+}
+
+.custom-checkbox + label::before {
+  margin: -10px 20px 0 0;
+}
+}
+
+@media (max-width: 576px) {
+  .button {
+    left: 37%;
+  }
+
+
+
 }

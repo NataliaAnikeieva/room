@@ -17,7 +17,8 @@ main {
 
 [class*="container"] {
     max-width: 1440px;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    padding: 0 15px; 
 }
 
 // ================header
@@ -48,23 +49,25 @@ main {
 }
 
 .header__logo {
+    z-index: 100;
     &:hover {
         opacity: 0.7;
     }
 }
 
-.nav__list {
+.navigation__list {
     display: flex;
     margin-left: -100px;
 }
 
-.nav__item {
+.navigation__item {
     padding-left: 100px;
 }
 
 .location {
     display: flex;
 }
+
 .location__list {
     margin-left: -50px;
     display: flex;
@@ -91,13 +94,9 @@ span {
     padding: 100px 0 0 55px;
 }
 
-.design__title {
-    max-width: 365px;
-}
-
 .design__text {
     padding-left: 135px;
-    max-width: 670px;
+    max-width: 570px;
 }
 
 // ===============four-rooms
@@ -115,10 +114,13 @@ span {
     padding-left: 25px;
 }
 
-.foor-rooms__title {
+.four-rooms__title {
     padding-top: 25px;
 }
 
+.room-img {
+    max-width: 100%;
+}
 // ============brands
 
 .brands__list {
@@ -150,6 +152,9 @@ span {
     }
 }
 
+.icons-img {
+    max-width: 100%;
+}
 // ===products
 
 .products {
@@ -167,15 +172,21 @@ span {
 .product__list {
     display: flex;
     justify-content: space-between;
+    margin-left: -20px;
 }
 
 .product__item {
     width: 33.33%;
+    padding-left: 20px;
 }
 
 .product__img {
     text-align: center;
     margin-left: -30%;
+}
+
+.product-img {
+    max-width: 100%;
 }
 
 .products__title {
@@ -268,15 +279,17 @@ span {
 
 .work__text {
     max-width: 310px;
-    font-size: $fs-md;
     margin-top: 25px;
     line-height: 24px;
 }
 
-.block2 {
-    order:1;
+.work-img {
+    object-fit: cover;
 }
 
+.block1 {
+    order: 2;
+}
 // ======risk
 
 .risk__img {
@@ -356,8 +369,8 @@ span {
 }
 
 .addres {
-    font-size: #{$fs-sm+1};
     line-height: 15px;
+    font-size: $fs-sm;
 }
 
 .social__list {
@@ -381,3 +394,195 @@ span {
     font-size: #{$fs-sm+2};
 }
 
+@media (max-width: 768px) {
+    .hamburger {
+       z-index: 100;
+       position: relative;
+       flex: 0 0 60px;
+       height: 40px;
+       width: 60px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       left: 25%;
+       top: 20%;
+       &::before,
+       &::after {
+           content: "";
+           background-color: $bgc2;
+           height: 4px;
+       }
+      & span {
+       height: 4px;
+       background-color: $bgc2;
+      }
+   }
+
+   .navigation {
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: $bgc3;
+    &__body {
+        padding: 20px;
+    }
+    &__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 10%;
+        top: 100%;
+        opacity: 0;
+        background-color: $bgc3;
+        padding: 20px 80px;
+        visibility: hidden;
+        transition: opacity .3s ease, visibility .3s ease;
+        &.active {
+            visibility: visible;
+            opacity: 1;
+        }
+    } 
+
+    &__item {
+        margin-bottom: 40px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    
+    &__link {
+     font-size: $fs-xlg;
+    }
+    }
+
+.header__logo {
+        position: fixed;
+        top: 5%;
+    }
+
+.location__list {
+    position: fixed;
+    z-index: 100;
+    right: 30%;
+    top: 10%;
+}
+
+// ====
+.design__text{
+    max-width: 400px;
+    padding-left: 80px;
+}
+.four-rooms__list{
+    padding-top: 50px;
+}
+
+.brands__subtitle {
+    margin-bottom: 50px;
+}
+
+.brands__list  {
+    padding-top: 50px;
+} 
+
+.icons__item {
+    width: 25%;
+}
+
+.reviews__title {
+    padding-top: 80px;
+}
+
+.reviews__list {
+    padding: 50px 0 50px 50px;
+    max-width: 250px;
+}
+.product__item {
+    width: 30%;
+}
+
+.work__section {
+    padding: 80px 55px 0 55px;
+}
+
+
+.black__title {
+    margin-bottom: 30px;
+} 
+
+.work__items {
+    flex-direction: column;
+}
+
+.work__card {
+    padding: 50px 0;
+}
+
+
+.risk__list-col {
+    margin-left: -100px;
+}
+
+.risk__item-col {
+    padding-left: 100px;
+}
+// =============
+.footer__section {
+    flex-wrap: wrap;
+}
+
+.footer__logo {
+    width: 35%;
+}
+
+.footer__list {
+    margin-bottom: 50px;
+}
+
+.footer__column3 {
+    margin-bottom: 50px;
+}
+}
+
+@media (max-width: 576px) {
+.hamburger {
+    height: 30px;
+    width: 44px;
+    left: 30%;
+    top: 20%;
+}
+
+.design__text {
+    padding-left: 50px;
+    max-width: 300px;
+}
+
+.four-rooms__item {
+        width: 100%;
+    } 
+
+.icons__item {
+        width: 30%;
+    }
+
+.product__list {
+    flex-wrap: wrap;
+}
+
+.product__item {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.risk__list-col {
+    margin-left: -95px;
+}
+
+.risk__item-col {
+    padding-left: 95px;
+}
+}

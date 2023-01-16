@@ -341,6 +341,9 @@ span {
     background-color: $bgc2;
     margin-top: 80px;
 }
+.mobile-footer {
+    display: none;
+}
 
 .footer__section {
     display: flex;
@@ -554,6 +557,23 @@ span {
     width: 44px;
     left: 30%;
     top: 20%;
+}
+.footer__section {
+    display: none;
+}
+
+.mobile-footer {
+    display: flex;
+}
+
+.mobile__list {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.mobile__item {
+    margin-bottom: 20px;
 }
 
 .design__text {

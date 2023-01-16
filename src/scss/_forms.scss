@@ -1,8 +1,8 @@
 .button {
     position: relative;
-    left: 45%;
+    left: 42%;
     max-width: 145px;
-    padding: 10px 25px;
+    padding: 0 25px;
     background-color: $bgc4;
     font-size: $fs-sm;
     line-height: 24px;
@@ -38,7 +38,7 @@
 
 .input__footer {
     height: 55px;
-    width: 385px;
+    width: 360px;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 3px;
     background-color: $bgc2;
@@ -70,8 +70,8 @@
   .custom-checkbox+label::before {
     content: '';
     display: inline-block;
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     flex-shrink: 0;
     flex-grow: 0;
     border: 1px solid $color1;

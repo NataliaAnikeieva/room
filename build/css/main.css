@@ -43,6 +43,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
+    font-size: 0.8333333333vw;
     color: #AAAAAA;
 }
 a:hover {
@@ -97,9 +98,13 @@ main {
 }
 
 [class*=container] {
-    max-width: 1440px;
+    max-width: 1340px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.header__container {
+    width: 1440px;
 }
 
 .header__top {
@@ -113,14 +118,18 @@ main {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 10px 0;
+    padding-right: 40px;
 }
 
 .contacts__item {
     margin-right: 25px;
 }
 
-.header__nav {
+.contacts__link {
+    text-transform: uppercase;
+}
+
+.header__navigation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -136,7 +145,7 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 25px 25px 25px 50px;
+    padding: 25px 0 25px 55px;
 }
 
 .header__logo {
@@ -150,11 +159,15 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: -100px;
+    margin-left: -240px;
 }
 
 .navigation__item {
     padding-left: 100px;
+}
+
+.navigation__link {
+    text-transform: uppercase;
 }
 
 .location {
@@ -171,11 +184,12 @@ main {
 }
 
 .location__item {
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .location__link {
     margin-left: 20px;
+    text-transform: uppercase;
 }
 
 span {
@@ -191,12 +205,12 @@ span:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 100px 0 0 55px;
+    padding: 100px 0 0 110px;
 }
 
 .design__text {
-    padding-left: 135px;
-    max-width: 570px;
+    padding-left: 125px;
+    max-width: 725px;
 }
 
 .four-rooms__list {
@@ -205,18 +219,16 @@ span:hover {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding-top: 210px;
-    margin-left: -25px;
+    padding-top: 190px;
 }
 
 .four-rooms__item {
-    width: 50%;
-    margin-bottom: 70px;
-    padding-left: 25px;
+    margin-bottom: 25px;
+    padding-left: 45px;
 }
 
 .four-rooms__title {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .room-img {
@@ -232,7 +244,7 @@ span:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    padding-top: 215px;
+    padding: 215px 0 185px 0;
 }
 
 .icons__list {
@@ -277,7 +289,7 @@ span:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 85px 55px 0 55px;
+    padding: 85px 55px 0 105px;
 }
 
 .products__text {
@@ -310,12 +322,8 @@ span:hover {
     max-width: 100%;
 }
 
-.products__title {
-    max-width: 1080px;
-}
-
 .product__subtitle {
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .product__column {
@@ -389,11 +397,16 @@ span:hover {
 
 .gray__title {
     color: #AAAAAA;
-    max-width: 880px;
+    max-width: 1100px;
+    padding: 100px 0 0 205px;
 }
 
 .black__title {
-    margin: 25px 0 135px 0;
+    margin: 30px 0 145px 210px;
+}
+
+.work__list {
+    padding-left: 55px;
 }
 
 .work__items {
@@ -408,7 +421,6 @@ span:hover {
 }
 
 .work__text {
-    max-width: 310px;
     margin-top: 25px;
     line-height: 24px;
 }
@@ -439,6 +451,7 @@ span:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    margin: 230px 0 0 40px;
 }
 
 .risk__title {
@@ -463,7 +476,7 @@ span:hover {
 }
 
 .risk__item-col {
-    padding-left: 250px;
+    padding-left: 165px;
 }
 
 .risk__subtitle {
@@ -473,7 +486,7 @@ span:hover {
 }
 
 .risk__sign {
-    margin: 20px 0;
+    margin: 10px 0 25px -50px;
 }
 
 .footer {
@@ -486,14 +499,17 @@ span:hover {
 }
 
 .footer__section {
+    padding: 100px 110px;
+    position: relative;
+}
+
+.footer__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 100px 55px;
-    position: relative;
 }
 
 .footer__logo {
@@ -1287,9 +1303,9 @@ ul {
 
 .button {
     position: relative;
-    left: 45%;
+    left: 42%;
     max-width: 145px;
-    padding: 10px 25px;
+    padding: 0 25px;
     background-color: #46856E;
     font-size: 12px;
     line-height: 24px;
@@ -1329,7 +1345,7 @@ ul {
 
 .input__footer {
     height: 55px;
-    width: 385px;
+    width: 360px;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 3px;
     background-color: #2B2B2B;
@@ -1367,8 +1383,8 @@ ul {
 .custom-checkbox + label::before {
     content: "";
     display: inline-block;
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     -webkit-box-flex: 0;
@@ -1501,6 +1517,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
+    font-size: 0.8333333333vw;
     color: #AAAAAA;
 }
 a:hover {

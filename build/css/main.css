@@ -120,11 +120,11 @@ main {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding-right: 40px;
+    margin-right: -40px;
 }
 
 .contacts__item {
-    margin-right: 25px;
+    padding-right: 25px;
 }
 
 .contacts__link {

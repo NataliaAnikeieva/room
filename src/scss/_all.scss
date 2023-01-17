@@ -34,12 +34,13 @@ main {
 .contacts {
     display: flex;
     justify-content: flex-end;
-    padding-right: 40px;
+    margin-right: -40px;
 }
 
 .contacts__item {
-    margin-right: 25px;
+    padding-right: 25px;
 }
+
  .contacts__link {
     text-transform: uppercase;
  }

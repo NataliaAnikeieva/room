@@ -1,7 +1,7 @@
 @import "../scss/_variables";
 
 body {
-    font: 400 get-vw($fs-md) $main-font;
+    font: 300 get-vw($fs-md) $main-font;
     color: $color1;
 }
 
@@ -10,6 +10,7 @@ h2,
 h4,
 h5 {
     color: $color2;
+    font-weight: 300;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h3 {
     color: $color5;
     font-size: get-vw($fs-xxlg);
     line-height: 52px;
+    font-weight: 400;
 }
 
 h4{

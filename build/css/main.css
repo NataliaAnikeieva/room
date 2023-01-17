@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Roboto:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular&display=swap);
 body {
-    font: 400 1.1111111111vw "Roboto";
+    font: 300 1.1111111111vw "Roboto";
     color: #AAAAAA;
 }
 
@@ -10,6 +10,7 @@ h2,
 h4,
 h5 {
     color: #1A1A1A;
+    font-weight: 300;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h3 {
     color: #000;
     font-size: 3.1944444444vw;
     line-height: 52px;
+    font-weight: 400;
 }
 
 h4 {
@@ -168,6 +170,7 @@ main {
 
 .navigation__link {
     text-transform: uppercase;
+    color: #000;
 }
 
 .location {
@@ -223,8 +226,7 @@ span:hover {
 }
 
 .four-rooms__item {
-    margin-bottom: 25px;
-    padding-left: 45px;
+    padding: 25px 0 0 45px;
 }
 
 .four-rooms__title {
@@ -289,7 +291,7 @@ span:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 85px 55px 0 105px;
+    padding: 85px 55px 240px 105px;
 }
 
 .products__text {
@@ -342,13 +344,15 @@ span:hover {
     line-height: 24px;
 }
 
-.reviews__title {
-    text-align: center;
-    padding-top: 240px;
-}
-
 .reviews__list {
-    padding: 120px 0 120px 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 0 120px 200px;
     max-width: 400px;
 }
 
@@ -420,9 +424,14 @@ span:hover {
     padding: 258px 90px;
 }
 
+.work__title {
+    color: #1A1A1A;
+}
+
 .work__text {
     margin-top: 25px;
     line-height: 24px;
+    font-weight: 300;
 }
 
 .work-img {
@@ -562,6 +571,10 @@ span:hover {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+}
+
+.singup {
+    text-align: end;
 }
 
 .footer__signup {
@@ -1333,8 +1346,8 @@ ul {
 
 .footer__button {
     position: absolute;
-    right: -60px;
-    top: 80%;
+    right: -120px;
+    top: 75%;
     text-align: center;
     -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
@@ -1377,7 +1390,9 @@ ul {
         -ms-user-select: none;
             user-select: none;
     max-width: 400px;
-    margin: 50px 0;
+    margin: 45px 0;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .custom-checkbox + label::before {
@@ -1395,7 +1410,7 @@ ul {
     background-position: center center;
     background-size: 50% 50%;
     position: relative;
-    margin: -75px 20px 0 20px;
+    margin: -55px 20px 0 20px;
 }
 
 .custom-checkbox:checked + label::before {
@@ -1475,7 +1490,7 @@ ul {
     }
 }
 body {
-    font: 400 1.1111111111vw "Roboto";
+    font: 300 1.1111111111vw "Roboto";
     color: #AAAAAA;
 }
 
@@ -1484,6 +1499,7 @@ h2,
 h4,
 h5 {
     color: #1A1A1A;
+    font-weight: 300;
 }
 
 h2 {
@@ -1495,6 +1511,7 @@ h3 {
     color: #000;
     font-size: 3.1944444444vw;
     line-height: 52px;
+    font-weight: 400;
 }
 
 h4 {

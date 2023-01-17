@@ -73,6 +73,7 @@ main {
 
 .navigation__link {
     text-transform: uppercase;
+    color: $color5;
 }
 
 .location {
@@ -121,8 +122,7 @@ span {
 }
 
 .four-rooms__item {
-    margin-bottom: 25px;
-    padding-left: 45px;
+    padding: 25px 0 0 45px;
 }
 
 .four-rooms__title {
@@ -171,7 +171,7 @@ span {
 .products {
     display: flex;
     flex-direction: column;
-    padding: 85px 55px 0 105px;
+    padding: 85px 55px 240px 105px;
 }
 
 .products__text {
@@ -218,14 +218,10 @@ span {
 // ============reviews
 
 
-
-.reviews__title {
-    text-align: center;
-    padding-top: 240px;
-}
-
 .reviews__list {
-    padding: 120px 0 120px 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 120px 200px;
     max-width: 400px;
 }
 
@@ -289,9 +285,14 @@ span {
     padding: 258px 90px;
 }
 
+.work__title {
+    color: $color2;
+}
+
 .work__text {
     margin-top: 25px;
     line-height: 24px;
+    font-weight: 300;
 }
 
 .work-img {
@@ -407,6 +408,10 @@ span {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.singup {
+    text-align: end;
 }
 
 .footer__signup {

@@ -28,8 +28,8 @@
 
 .footer__button {
     position: absolute;
-    right: -60px;
-    top:80%;
+    right: -120px;
+    top:75%;
     text-align:center;
     transform: rotate(-90deg);
     text-transform: uppercase;
@@ -64,7 +64,9 @@
     align-items: center;
     user-select: none;
     max-width: 400px;
-    margin: 50px 0;
+    margin: 45px 0;
+    text-transform: uppercase;
+    font-size: $fs-sm;
   }
 
   .custom-checkbox+label::before {
@@ -79,7 +81,7 @@
     background-position: center center;
     background-size: 50% 50%;
     position: relative;
-    margin: -75px 20px 0 20px;
+    margin: -55px 20px 0 20px;
   }
 
   .custom-checkbox:checked+label::before {

@@ -45,7 +45,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: 0.8333333333vw;
+    font-size: 12px;
     color: #AAAAAA;
 }
 a:hover {
@@ -317,7 +317,6 @@ span:hover {
 
 .product__img {
     text-align: center;
-    margin-left: -30%;
 }
 
 .product-img {
@@ -339,9 +338,12 @@ span:hover {
 }
 
 .product__content {
-    max-width: 325px;
     font-size: 16px;
     line-height: 24px;
+}
+
+.reviews__section {
+    height: 800px;
 }
 
 .reviews__list {
@@ -1534,7 +1536,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: 0.8333333333vw;
+    font-size: 12px;
     color: #AAAAAA;
 }
 a:hover {

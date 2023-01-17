@@ -45,7 +45,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: get-vw($fs-sm);
+    font-size: $fs-sm;
     color: $color1;
     &:hover {
         text-decoration: underline;

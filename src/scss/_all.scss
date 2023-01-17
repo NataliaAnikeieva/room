@@ -193,7 +193,6 @@ span {
 
 .product__img {
     text-align: center;
-    margin-left: -30%;
 }
 
 .product-img {
@@ -210,14 +209,15 @@ span {
 }
 
 .product__content {
-    max-width: 325px;
     font-size: $fs-md;
     line-height: 24px;
 }
 
 // ============reviews
 
-
+.reviews__section{
+    height: 800px;
+}
 .reviews__list {
     display: flex;
     flex-direction: column;

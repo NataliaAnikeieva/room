@@ -34,7 +34,7 @@ main {
 .contacts {
     display: flex;
     justify-content: flex-end;
-    margin-right: -40px;
+    margin-right: -25px;
 }
 
 .contacts__item {
@@ -65,7 +65,7 @@ main {
 
 .navigation__list {
     display: flex;
-    margin-left: -240px;
+    margin-left: -100px;
 }
 
 .navigation__item {
@@ -82,7 +82,7 @@ main {
 }
 
 .location__list {
-    margin-left: -50px;
+    margin-left: -20px;
     display: flex;
 }
 
@@ -126,6 +126,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     padding-top: 190px;
+    margin-left: -45px;
 }
 
 .four-rooms__item {

@@ -120,7 +120,7 @@ main {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: -40px;
+    margin-right: -25px;
 }
 
 .contacts__item {
@@ -161,7 +161,7 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: -240px;
+    margin-left: -100px;
 }
 
 .navigation__item {
@@ -180,7 +180,7 @@ main {
 }
 
 .location__list {
-    margin-left: -50px;
+    margin-left: -20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -233,6 +233,7 @@ span:hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-top: 190px;
+    margin-left: -45px;
 }
 
 .four-rooms__item {

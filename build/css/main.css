@@ -45,7 +45,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 0.8333333333vw;
     color: #AAAAAA;
 }
 a:hover {
@@ -54,7 +54,7 @@ a:hover {
 
 p {
     font-size: 1.6666666667vw;
-    line-height: 40px;
+    line-height: 47px;
     margin-bottom: 20px;
 }
 
@@ -106,7 +106,7 @@ main {
 }
 
 .header__container {
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .header__top {
@@ -204,6 +204,10 @@ span:hover {
     opacity: 0.7;
 }
 
+.design__img {
+    height: 800px;
+}
+
 .design__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,9 +215,15 @@ span:hover {
     padding: 100px 0 0 110px;
 }
 
+.design__title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+}
+
 .design__text {
-    padding-left: 125px;
-    max-width: 725px;
+    padding-left: 150px;
+    max-width: 680px;
 }
 
 .four-rooms__list {
@@ -343,7 +353,11 @@ span:hover {
 }
 
 .reviews__section {
-    height: 800px;
+    height: 900px;
+}
+
+.reviews__imeges {
+    padding: 120px 0 0 200px;
 }
 
 .reviews__list {
@@ -354,8 +368,7 @@ span:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 0 120px 200px;
-    max-width: 400px;
+    max-width: 220px;
 }
 
 .reviews__items {
@@ -403,7 +416,7 @@ span:hover {
 
 .gray__title {
     color: #AAAAAA;
-    max-width: 1100px;
+    max-width: 1055px;
     padding: 100px 0 0 205px;
 }
 
@@ -432,8 +445,9 @@ span:hover {
 
 .work__text {
     margin-top: 25px;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 300;
+    max-width: 300px;
 }
 
 .work-img {
@@ -497,7 +511,7 @@ span:hover {
 }
 
 .risk__sign {
-    margin: 10px 0 25px -50px;
+    margin: 15px 0;
 }
 
 .footer {
@@ -1317,8 +1331,6 @@ ul {
 }
 
 .button {
-    position: relative;
-    left: 42%;
     max-width: 145px;
     padding: 0 25px;
     background-color: #46856E;
@@ -1338,7 +1350,8 @@ ul {
     color: #fff;
     font-size: 12px;
     line-height: 60px;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .select {
@@ -1536,7 +1549,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 0.8333333333vw;
     color: #AAAAAA;
 }
 a:hover {
@@ -1545,7 +1558,7 @@ a:hover {
 
 p {
     font-size: 1.6666666667vw;
-    line-height: 40px;
+    line-height: 47px;
     margin-bottom: 20px;
 }
 

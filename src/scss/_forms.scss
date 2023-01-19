@@ -1,6 +1,4 @@
 .button {
-    position: relative;
-    left: 42%;
     max-width: 145px;
     padding: 0 25px;
     background-color: $bgc4;
@@ -18,7 +16,8 @@
     color: $color4;
     font-size: $fs-sm;
     line-height: 60px;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .select {

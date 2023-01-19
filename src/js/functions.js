@@ -15,7 +15,6 @@ function initImgReplace() {
 				backgroundSize: 'cover',
 				backgroundPosition: '50% 50%',
 				backgroundRepeat: 'no-repeat',
-				height: '746',
 			});
 			img.remove();
 		}

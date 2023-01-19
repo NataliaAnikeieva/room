@@ -24,7 +24,7 @@ main {
 // ================header
 
 .header__container {
-    width: 1440px;
+    max-width: 1440px;
 }
 .header__top {
     background-color: $bgc1;
@@ -103,15 +103,21 @@ span {
 }
 
 // ====
+.design__img {
+    height: 800px;
+}
 
 .design__content {
     display: flex;
     padding: 100px 0 0 110px;
 }
 
+.design__title {
+    flex: 0 0 auto;
+}
 .design__text {
-    padding-left: 125px;
-    max-width: 725px;
+    padding-left: 150px;
+    max-width: 680px;
 }
 
 // ===============four-rooms
@@ -217,13 +223,17 @@ span {
 // ============reviews
 
 .reviews__section{
-    height: 800px;
+    height: 900px;
 }
+
+.reviews__imeges {
+    padding: 120px 0 0 200px;
+}
+
 .reviews__list {
     display: flex;
     flex-direction: column;
-    padding: 0 0 120px 200px;
-    max-width: 400px;
+    max-width: 220px;
 }
 
 .reviews__items {
@@ -265,7 +275,7 @@ span {
 
 .gray__title {
     color: $color1;
-    max-width: 1100px;
+    max-width: 1055px;
     padding: 100px 0 0 205px;
 }
 
@@ -292,8 +302,9 @@ span {
 
 .work__text {
     margin-top: 25px;
+    font-size: $fs-md;
     line-height: 24px;
-    font-weight: 300;
+    max-width: 300px;
 }
 
 .work-img {
@@ -346,7 +357,7 @@ span {
 }
 
 .risk__sign {
-    margin: 10px 0 25px -50px;
+    margin: 15px 0;
 }
 
 // ====footer

@@ -15,30 +15,30 @@ h5 {
 
 h2 {
     font-size: 3.3333333333vw;
-    line-height: 56px;
+    line-height: 1.2;
 }
 
 h3 {
     color: #000;
     font-size: 3.1944444444vw;
-    line-height: 52px;
+    line-height: 1.1;
     font-weight: 400;
 }
 
 h4 {
     font-size: 2.2222222222vw;
-    line-height: 32px;
+    line-height: 1.2;
 }
 
 h5 {
     font-family: "Roboto";
     font-size: 1.6666666667vw;
-    line-height: 24px;
+    line-height: 1;
 }
 
 h6 {
     font-size: 0.9722222222vw;
-    line-height: 24px;
+    line-height: 0.6;
     letter-spacing: 0.5px;
     color: #fff;
 }
@@ -54,30 +54,9 @@ a:hover {
 
 p {
     font-size: 1.6666666667vw;
-    line-height: 47px;
-    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-@media (max-width: 768px) {
-    h2 {
-        line-height: 32px;
-    }
-    h3 {
-        line-height: 36px;
-    }
-    h4 {
-        line-height: 26px;
-    }
-    h5 {
-        line-height: 10px;
-    }
-    h6 {
-        line-height: 2px;
-    }
-    p {
-        line-height: 20px;
-    }
-}
 html, body {
     height: 100%;
 }
@@ -1333,7 +1312,6 @@ ul {
 
 .button {
     max-width: 145px;
-    padding: 0 25px;
     background-color: #46856E;
     font-size: 12px;
     line-height: 24px;
@@ -1349,8 +1327,7 @@ ul {
 
 .risk__button {
     color: #fff;
-    font-size: 12px;
-    line-height: 60px;
+    padding: 15px 25px;
     display: block;
     margin: 0 auto;
 }
@@ -1520,30 +1497,30 @@ h5 {
 
 h2 {
     font-size: 3.3333333333vw;
-    line-height: 56px;
+    line-height: 1.2;
 }
 
 h3 {
     color: #000;
     font-size: 3.1944444444vw;
-    line-height: 52px;
+    line-height: 1.1;
     font-weight: 400;
 }
 
 h4 {
     font-size: 2.2222222222vw;
-    line-height: 32px;
+    line-height: 1.2;
 }
 
 h5 {
     font-family: "Roboto";
     font-size: 1.6666666667vw;
-    line-height: 24px;
+    line-height: 1;
 }
 
 h6 {
     font-size: 0.9722222222vw;
-    line-height: 24px;
+    line-height: 0.6;
     letter-spacing: 0.5px;
     color: #fff;
 }
@@ -1559,28 +1536,6 @@ a:hover {
 
 p {
     font-size: 1.6666666667vw;
-    line-height: 47px;
-    margin-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-    h2 {
-        line-height: 32px;
-    }
-    h3 {
-        line-height: 36px;
-    }
-    h4 {
-        line-height: 26px;
-    }
-    h5 {
-        line-height: 10px;
-    }
-    h6 {
-        line-height: 2px;
-    }
-    p {
-        line-height: 20px;
-    }
+    line-height: 1.5;
 }
 /*# sourceMappingURL=maps/main.css.map */

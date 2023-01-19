@@ -1,6 +1,5 @@
 .button {
     max-width: 145px;
-    padding: 0 25px;
     background-color: $bgc4;
     font-size: $fs-sm;
     line-height: 24px;
@@ -14,8 +13,7 @@
 
 .risk__button {
     color: $color4;
-    font-size: $fs-sm;
-    line-height: 60px;
+    padding: 15px 25px;
     display: block;
     margin: 0 auto;
 }

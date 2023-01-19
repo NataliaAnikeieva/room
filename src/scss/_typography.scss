@@ -15,30 +15,30 @@ h5 {
 
 h2 {
     font-size: get-vw($fs-xxlg+2);
-    line-height: 56px;
+    line-height: 1.2;
     }
 
 h3 {
     color: $color5;
     font-size: get-vw($fs-xxlg);
-    line-height: 52px;
+    line-height: 1.1;
     font-weight: 400;
 }
 
 h4{
     font-size: get-vw($fs-xlg);
-    line-height: 32px;
+    line-height: 1.2;
 }
 
 h5 {
     font-family: $main-font;
     font-size: get-vw($fs-md+8);
-    line-height: 24px;
+    line-height: 1;
 }
 
 h6 {
     font-size: get-vw($fs-sm+2);
-    line-height: 24px;
+    line-height: 0.6;
     letter-spacing: 0.5px;
     color: $color4;
 }
@@ -54,33 +54,6 @@ a {
 
 p {
     font-size: get-vw($fs-md+8);
-    line-height: 47px;
-    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
- @media (max-width: 768px) {
-
- h2 {
-    line-height: 32px;
-    }
-
-h3 {
-    line-height: 36px;
-}
-
-h4{
-    line-height: 26px;
-}
-
-h5 {
-    line-height: 10px;
-}
-
-h6 {
-    line-height: 2px;
-}
-
-p {
-    line-height: 20px;
-}
- }

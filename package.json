@@ -9,15 +9,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.27.11",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-pug": "^5.0.0",
-    "gulp-util": "^3.0.8",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "sass": "^1.56.1",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^9.0.2",
-    "gulp-imagemin": "^7.1.0",
-    "browser-sync": "^2.27.11"
+    "sass": "^1.56.1",
+    "sass-lint": "^1.13.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard": "^20.0.0"
   }
 }

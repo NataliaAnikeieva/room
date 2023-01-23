@@ -494,6 +494,17 @@ span:hover {
     margin: 15px 0;
 }
 
+.footer__column.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.footer__column.mobile .item {
+    width: 33.33%;
+}
+
 .footer {
     background-color: #2B2B2B;
     margin-top: 80px;

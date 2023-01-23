@@ -362,7 +362,13 @@ span {
 }
 
 // ====footer
-
+.footer__column.mobile {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+        width: 33.33%;
+    }
+}
 .footer {
     background-color: $bgc2;
     margin-top: 80px;

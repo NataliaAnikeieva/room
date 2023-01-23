@@ -3,6 +3,7 @@ const gulp = require('gulp'),
 	sass = require('gulp-sass')(require('sass')),
 	autoprefixer = require('gulp-autoprefixer'),
 	sourcemaps = require('gulp-sourcemaps'),
+	gulpStylelint = require('gulp-stylelint'),
 	pug = require('gulp-pug'),
 	gutil = require('gulp-util'),
 	imagemin = require('gulp-imagemin'),
@@ -28,25 +29,38 @@ const path = {
 };
 // таск для компиляции стилей
 function styles() {
-	return gulp
-		.src(path.src.scss) //берем сцсс файлы
-		.pipe(sourcemaps.init()) //строится карта стилей, что бы в браузере показывала с какого файла и на какой строке стиль
-		.pipe(
-			sass({
-				includePaths: [path.src.scss],
-				outputStyle: 'expanded',
-				indentWidth: 4,
-				errLogToConsole: true,
-			}).on('error', sass.logError)
-		) // компиляция сцсс с выбранными опциями. форматирование файла, отступы
-		.pipe(
-			autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
-				cascade: false,
-			})
-		) //добавление префиксов для стилей у которых они есть
-		.pipe(sourcemaps.write('./maps')) //запись файла карты стилей
-		.pipe(gulp.dest(path.build.css)) //запись цсс
-		.pipe(browserSync.stream()); //перезагрузка сервера
+	return (
+		gulp
+			.src(path.src.scss) //берем сцсс файлы
+			// .pipe(
+			// 	gulpStylelint({
+			// 		reporters: [
+			// 			{
+			// 				formatter: 'string',
+			// 				save: 'lint-report.txt',
+			// 				console: false,
+			// 			},
+			// 		],
+			// 	})
+			// )
+			.pipe(sourcemaps.init()) //строится карта стилей, что бы в браузере показывала с какого файла и на какой строке стиль
+			.pipe(
+				sass({
+					includePaths: [path.src.scss],
+					outputStyle: 'expanded',
+					indentWidth: 4,
+					errLogToConsole: true,
+				}).on('error', sass.logError)
+			) // компиляция сцсс с выбранными опциями. форматирование файла, отступы
+			.pipe(
+				autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
+					cascade: false,
+				})
+			) //добавление префиксов для стилей у которых они есть
+			.pipe(sourcemaps.write('./maps')) //запись файла карты стилей
+			.pipe(gulp.dest(path.build.css)) //запись цсс
+			.pipe(browserSync.stream())
+	); //перезагрузка сервера
 }
 //таск для компиляции паг
 function html() {
@@ -93,11 +107,10 @@ function watcher() {
 	browserSync.init({
 		server: {
 			baseDir: './build',
-			index: '/index.html',
 		},
 	});
 	gulp.watch(path.src.scss, styles).on('change', browserSync.reload);
-	gulp.watch(path.src.pug, html);
+	gulp.watch(path.src.pug, html).on('change', browserSync.reload);
 	gulp.watch(path.src.js, js);
 	gulp.watch(path.src.fonts, fonts);
 	gulp.watch(path.src.img, img);

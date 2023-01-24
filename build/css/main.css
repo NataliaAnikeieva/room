@@ -152,6 +152,10 @@ main {
     color: #000;
 }
 
+.contacts {
+    padding: 10px 0;
+}
+
 .location {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -172,6 +176,11 @@ main {
 .location__link {
     margin-left: 20px;
     text-transform: uppercase;
+    color: #000;
+}
+
+.fa-solid {
+    color: #000;
 }
 
 span {

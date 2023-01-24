@@ -77,6 +77,9 @@ main {
     color: $color5;
 }
 
+.contacts {
+    padding: 10px 0;
+}
 .location {
     display: flex;
 }
@@ -93,7 +96,12 @@ main {
 .location__link {
  margin-left: 20px;
  text-transform: uppercase;
+ color: $color5;
 }
+.fa-solid {
+color: $color5; 
+}
+
 
 span {
     transition: color 0.5s ease;

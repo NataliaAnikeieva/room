@@ -8,6 +8,7 @@
     @include transition(color background);
      &:hover {
         background-color: $bgc2;
+        text-decoration: none;
      }
 }
 
@@ -30,12 +31,11 @@
     text-align:center;
     transform: rotate(-90deg);
     text-transform: uppercase;
-    font-size: $fs-sm;
 }
 
 .input__footer {
     height: 55px;
-    width: 360px;
+    width: 120%;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 3px;
     background-color: $bgc2;
@@ -63,7 +63,7 @@
     max-width: 400px;
     margin: 45px 0;
     text-transform: uppercase;
-    font-size: $fs-sm;
+    font-size: get-vw($fs-sm);
   }
 
   .custom-checkbox+label::before {
@@ -78,7 +78,7 @@
     background-position: center center;
     background-size: 50% 50%;
     position: relative;
-    margin: -55px 20px 0 20px;
+    margin: -40px 20px 0 20px;
   }
 
   .custom-checkbox:checked+label::before {
@@ -146,11 +146,15 @@
   margin: -10px 20px 0 0;
 }
 }
+.footer__button {
+  right: -20px;
+}
 
 @media (max-width: 576px) {
   .button {
     left: 37%;
   }
+
   .mobile-select {
     background-color: $bgc2;
     font-size: $fs-md;

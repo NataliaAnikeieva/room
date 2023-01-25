@@ -1,0 +1,31 @@
+{
+    "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+    "ignoreFiles": ["sass/bootstrap.scss", "sass/font-awesome.scss", "sass/slick.scss", "sass/abstracts/_rem.scss", "sass/base/_normalize&reset.scss"],
+    "rules": {
+        "indentation": 4,
+        "at-rule-no-unknown": [true, {
+            "ignoreAtRules": ["include", "mixin", "if", "else", "each", "function", "return", "extend"]
+        }],
+        "selector-list-comma-newline-after": null,
+        "number-leading-zero": "never",
+        "declaration-bang-space-before": "always",
+        "declaration-property-value-disallowed-list": {
+            "border": ["0", "none"],
+            "border-style": ["0"]
+            },
+        "color-named": "never",
+        "declaration-block-no-duplicate-properties": true,
+        "block-no-empty": true,
+        "property-no-unknown": true,
+        "shorthand-property-no-redundant-values": true,
+        "declaration-colon-space-after": "always",
+        "block-opening-brace-space-before": "always",
+        "block-opening-brace-newline-after": "always",
+        "block-closing-brace-newline-before": "always",
+        "block-closing-brace-newline-after": "always",
+        "function-parentheses-space-inside": "never",
+        "declaration-block-trailing-semicolon": "always",
+        "no-extra-semicolons": true,
+        "length-zero-no-unit": true
+    }
+}

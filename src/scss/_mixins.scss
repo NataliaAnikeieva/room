@@ -55,3 +55,10 @@ $vw-context: $vw-viewport * 0.01 * 1px;
 @mixin flex-wrap($wrap: normal) {
 	flex-wrap: $wrap;
 }
+
+$maxWidth: 1280;
+@mixin font($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize} + #{$addSize / ($addSize * 0 + 1)} * ((100vw - 320px) / #{$maxWidth}));
+}

@@ -28,7 +28,10 @@ main {
 }
 .header__top {
     background-color: $bgc1;
+}
 
+.border {
+    border-bottom: 1px solid $color6;
 }
 
 .contacts {
@@ -113,6 +116,7 @@ span {
 // ====
 .design__img {
     height: 800px;
+    margin-top: 50px;
 }
 
 .design__content {
@@ -235,8 +239,8 @@ span {
     height: 900px;
 }
 
-.reviews__imeges {
-    padding: 120px 0 0 200px;
+.reviews__images {
+    padding: 6em 0 0 10em;
 }
 
 .reviews__list {
@@ -299,10 +303,15 @@ span {
 .work__items {
     display: flex;
     margin-bottom: 65px;
+    align-items: center;
 }
 
 .work__card {
-    padding: 258px 90px;
+    padding: 0 90px;
+}
+
+.work-img-tab {
+    display: none;
 }
 
 .work__title {
@@ -313,7 +322,6 @@ span {
     margin-top: 25px;
     font-size: $fs-md;
     line-height: 24px;
-    max-width: 300px;
 }
 
 .work-img {
@@ -370,13 +378,17 @@ span {
 }
 
 // ====footer
+.footer__column.mobile {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+        width: 33.33%;
+    }
+}
 
 .footer {
     background-color: $bgc2;
     margin-top: 80px;
-}
-.mobile-footer {
-    display: none;
 }
 
 .footer__section {
@@ -386,7 +398,7 @@ span {
 
 .footer__content {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 
@@ -401,17 +413,14 @@ span {
     margin-bottom: 45px;
 }
 
-.support {
-    margin-bottom: 20px;
-}
-
+.support,
 .footer__title {
     margin-bottom: 20px;
 }
 
 .addres {
     line-height: 15px;
-    font-size: $fs-sm;
+    font-size: get-vw($fs-sm);
 }
 
 .social__list {
@@ -419,27 +428,32 @@ span {
 }
 
 .social__items {
-    padding-left: 15px;
+    padding-left: 1em;
     &:first-child {
         padding-left: 0;
     }
-}
-
-.footer__column4 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 
 .singup {
     text-align: end;
 }
 
-.footer__signup {
-    font-size: #{$fs-sm+2};
-}
+// ==============media
 
 @media (max-width: 768px) {
+    .header__top {
+        z-index: 99;
+        position: fixed;
+        right: 0;
+        width: 100%;
+
+    }
+
+    .header__white {
+        position: fixed;
+        padding: 50px 25px;
+    }
+
     .hamburger {
        z-index: 100;
        position: relative;
@@ -449,8 +463,8 @@ span {
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-       left: 25%;
-       top: 20%;
+       left: 85%;
+       top: 35%;
        &::before,
        &::after {
            content: "";
@@ -469,7 +483,7 @@ span {
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px;
+    height: 135px;
     background-color: $bgc3;
     &__body {
         padding: 20px;
@@ -480,12 +494,13 @@ span {
         align-items: center;
         position: absolute;
         transform: translateX(-50%);
-        left: 10%;
+        left: 75%;
         top: 100%;
         opacity: 0;
         background-color: $bgc3;
         padding: 20px 80px;
         visibility: hidden;
+        margin-left: 0;
         transition: opacity .3s ease, visibility .3s ease;
         &.active {
             visibility: visible;
@@ -505,17 +520,19 @@ span {
     }
     }
 
-.header__logo {
-        position: fixed;
-        top: 5%;
+    .navigation__item {
+        padding-left: 0;
     }
-
-.location__list {
-    position: fixed;
-    z-index: 100;
-    right: 30%;
-    top: 10%;
-}
+    .item.open{
+        .footer__list,
+        .social__list {
+            display: block;
+        }
+    }
+    .footer__list,
+    .social__list {
+        display: none;
+    }
 
 // ====
 .design__text{
@@ -524,6 +541,7 @@ span {
 }
 .four-rooms__list{
     padding-top: 50px;
+    margin: 0 auto;
 }
 
 .brands__subtitle {
@@ -542,6 +560,10 @@ span {
     padding-top: 80px;
 }
 
+.reviews__images {
+    padding: 0;
+}
+
 .reviews__list {
     padding: 50px 0 50px 50px;
     max-width: 250px;
@@ -550,11 +572,26 @@ span {
     width: 30%;
 }
 
+.gray__title {
+    padding: 50px 0 0 105px;
+}
+
+.black__title {
+    margin-left: 105px;
+}
+
 .work__section {
     padding: 80px 55px 0 55px;
 }
 
+.work-img {
+    display: none;
+}
 
+.work-img-tab {
+    display: block;
+    width: 100%;
+}
 .black__title {
     margin-bottom: 30px;
 } 
@@ -567,6 +604,13 @@ span {
     padding: 50px 0;
 }
 
+.products {
+    padding-bottom: 100px;
+}
+
+.risk__content {
+    margin-top: 130px;
+}
 
 .risk__list-col {
     margin-left: -100px;
@@ -597,25 +641,6 @@ span {
 .hamburger {
     height: 30px;
     width: 44px;
-    left: 30%;
-    top: 20%;
-}
-.footer__section {
-    display: none;
-}
-
-.mobile-footer {
-    display: flex;
-}
-
-.mobile__list {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
-
-.mobile__item {
-    margin-bottom: 20px;
 }
 
 .design__text {

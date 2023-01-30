@@ -95,6 +95,7 @@ main {
 
 .border {
     border-bottom: 1px solid #e0e0e0;
+    width: 100%;
 }
 
 .contacts {
@@ -527,12 +528,13 @@ span:hover {
 }
 
 .footer {
+    width: 100%;
     background-color: #2B2B2B;
     margin-top: 80px;
 }
 
 .footer__section {
-    padding: 100px 110px;
+    padding: 100px 15px;
     position: relative;
 }
 
@@ -1405,7 +1407,7 @@ ul {
 
 .input__footer {
     height: 55px;
-    width: 120%;
+    width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 3px;
     background-color: #2B2B2B;
@@ -1526,10 +1528,6 @@ ul {
         margin: -10px 20px 0 0;
     }
 }
-.footer__button {
-    right: -20px;
-}
-
 @media (max-width: 576px) {
     .button {
         left: 37%;

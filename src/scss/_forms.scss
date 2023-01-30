@@ -35,7 +35,7 @@
 
 .input__footer {
     height: 55px;
-    width: 120%;
+    width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 3px;
     background-color: $bgc2;
@@ -145,9 +145,6 @@
 .custom-checkbox + label::before {
   margin: -10px 20px 0 0;
 }
-}
-.footer__button {
-  right: -20px;
 }
 
 @media (max-width: 576px) {

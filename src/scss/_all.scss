@@ -34,6 +34,7 @@ main {
 
 .border {
     border-bottom: 1px solid $color6;
+    width: 100%;
 }
 
 .contacts {
@@ -390,13 +391,14 @@ span {
 }
 
 .footer {
+    width: 100%;
     background-color: $bgc2;
     margin-top: 80px;
 
 }
 
 .footer__section {
-    padding: 100px 110px;
+    padding: 100px 15px;
     position: relative;
 }
 

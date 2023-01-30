@@ -32,17 +32,17 @@ function styles() {
 	return (
 		gulp
 			.src(path.src.scss) //берем сцсс файлы
-			// .pipe(
-			// 	gulpStylelint({
+			//    .pipe(
+			//  	gulpStylelint({
 			// 		reporters: [
 			// 			{
-			// 				formatter: 'string',
+			//  				formatter: 'string',
 			// 				save: 'lint-report.txt',
-			// 				console: false,
-			// 			},
+			//  				console: false,
+			//  			},
 			// 		],
-			// 	})
-			// )
+			//  	})
+			//  )
 			.pipe(sourcemaps.init()) //строится карта стилей, что бы в браузере показывала с какого файла и на какой строке стиль
 			.pipe(
 				sass({

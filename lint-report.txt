@@ -1,0 +1,550 @@
+
+src/scss/main.scss
+ 7:25  ✖  Unexpected missing end-of-source newline   no-missing-end-of-source-newline
+
+src/scss/widgets.scss
+   4:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+   5:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+   6:3  ✖  Expected "box-sizing" to come before "display"                     order/properties-order                   
+   6:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+   7:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+   8:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+   9:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  10:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  11:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  12:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  13:3  ✖  Expected "-ms-touch-action" to come before "user-select"           order/properties-order                   
+  13:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  14:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  15:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  17:1  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  18:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  19:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  20:3  ✖  Expected "display" to come before "overflow"                       order/properties-order                   
+  20:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  21:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  22:3  ✖  Expected "padding" to come before "margin"                         order/properties-order                   
+  22:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  24:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  25:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  26:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  28:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  29:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  30:7  ✖  Unexpected duplicate "cursor"                                      declaration-block-no-duplicate-properties
+  30:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  31:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  33:1  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  35:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  36:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  37:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  38:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  39:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  42:1  ✖  Expected selector ".slick-track" to come before selector           no-descending-specificity                
+           ".slick-slider .slick-track"                                                                                
+  43:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  44:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  45:3  ✖  Expected "top" to come before "left"                               order/properties-order                   
+  45:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  46:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  47:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  48:3  ✖  Expected "margin-right" to come before "margin-left"               order/properties-order                   
+  48:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  50:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  50:4  ✖  Expected double colon pseudo-element notation                      selector-pseudo-element-colon-notation   
+  51:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  51:4  ✖  Expected double colon pseudo-element notation                      selector-pseudo-element-colon-notation   
+  52:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  53:7  ✖  Expected "display" to come before "content"                        order/properties-order                   
+  53:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  54:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  56:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  56:4  ✖  Expected double colon pseudo-element notation                      selector-pseudo-element-colon-notation   
+  57:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  58:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  60:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  61:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  62:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  64:1  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  65:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  66:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  67:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  68:3  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  68:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  69:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  70:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  71:3  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  71:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  72:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  73:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  74:3  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  74:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  75:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  76:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  78:3  ✖  Expected "display" to come before "min-height"                     order/properties-order                   
+  78:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  80:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  81:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  82:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  84:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  85:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  86:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  88:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  89:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  90:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  92:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  93:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  94:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  95:7  ✖  Expected indentation of 8 spaces                                   indentation                              
+  96:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+  98:1  ✖  Expected empty line before rule                                    rule-empty-line-before                   
+  99:3  ✖  Expected indentation of 4 spaces                                   indentation                              
+ 100:1  ✖  Unexpected missing end-of-source newline                           no-missing-end-of-source-newline         
+
+src/scss/_all.scss
+   5:18  ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+   5:19  ✖  Expected newline before "}"                                       block-closing-brace-newline-before       
+  20:20  ✖  Expected newline after ";" in a multi-line declaration block      declaration-block-semicolon-newline-after
+  20:20  ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+  21:5   ✖  Expected "padding" to come before "margin"                        order/properties-order                   
+  21:21  ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+  21:22  ✖  Expected newline before "}"                                       block-closing-brace-newline-before       
+  32:5   ✖  Expected "z-index" to come before "background-color"              order/properties-order                   
+  49:2   ✖  Expected indentation of 0 spaces                                  indentation                              
+  51:2   ✖  Expected indentation of 0 spaces                                  indentation                              
+  60:5   ✖  Expected "align-items" to come before "justify-content"           order/properties-order                   
+  66:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+  67:18  ✖  Unexpected leading zero                                           number-leading-zero                      
+  82:5   ✖  Expected "color" to come before "text-transform"                  order/properties-order                   
+  85:1   ✖  Unexpected duplicate selector ".contacts", first used at line 39  no-duplicate-selectors                   
+  88:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+  94:5   ✖  Expected "display" to come before "margin-left"                   order/properties-order                   
+ 102:2   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 103:2   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 104:2   ✖  Expected "color" to come before "text-transform"                  order/properties-order                   
+ 104:2   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 106:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 107:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 107:16  ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+ 107:17  ✖  Expected newline before "}"                                       block-closing-brace-newline-before       
+ 110:1   ✖  Expected no more than 1 empty line                                max-empty-lines                          
+ 112:23  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 113:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 114:18  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 132:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 134:5   ✖  Expected "max-width" to come before "padding-left"                order/properties-order                   
+ 148:5   ✖  Expected "width" to come before "padding"                         order/properties-order                   
+ 164:5   ✖  Expected "padding" to come before "text-align"                    order/properties-order                   
+ 164:5   ✖  Unexpected longhand value '215px 0 185px 0' instead of '215px 0   shorthand-property-no-redundant-values   
+            185px'                                                                                                     
+ 166:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 173:5   ✖  Unexpected longhand value '30px 0 125px 0' instead of '30px 0     shorthand-property-no-redundant-values   
+            125px'                                                                                                     
+ 183:23  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 184:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 185:18  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 201:5   ✖  Unexpected longhand value '25px 0 75px 0' instead of '25px 0      shorthand-property-no-redundant-values   
+            75px'                                                                                                      
+ 203:5   ✖  Expected "font-size" to come before "color"                       order/properties-order                   
+ 241:17  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 261:5   ✖  Expected "font-size" to come before "color"                       order/properties-order                   
+ 263:5   ✖  Expected "margin" to come before "line-height"                    order/properties-order                   
+ 268:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 269:18  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 272:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 272:16  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 282:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 282:11  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 283:18  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 294:5   ✖  Expected "max-width" to come before "color"                       order/properties-order                   
+ 309:5   ✖  Expected "align-items" to come before "margin-bottom"             order/properties-order                   
+ 314:5   ✖  Expected "width" to come before "padding"                         order/properties-order                   
+ 317:9   ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 321:1   ✖  Expected no more than 1 empty line                                max-empty-lines                          
+ 332:1   ✖  Unexpected duplicate selector ".work-img", first used at line     no-duplicate-selectors                   
+            317                                                                                                        
+ 348:5   ✖  Expected "display" to come before "background-repeat"             order/properties-order                   
+ 351:5   ✖  Expected "margin" to come before "text-align"                     order/properties-order                   
+ 364:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 378:5   ✖  Expected "font-size" to come before "color"                       order/properties-order                   
+ 389:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 396:5   ✖  Expected "margin-top" to come before "background-color"           order/properties-order                   
+ 401:5   ✖  Expected "position" to come before "padding"                      order/properties-order                   
+ 409:1   ✖  Expected no more than 1 empty line                                max-empty-lines                          
+ 412:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 413:18  ✖  Unexpected leading zero                                           number-leading-zero                      
+ 428:5   ✖  Expected "font-size" to come before "line-height"                 order/properties-order                   
+ 437:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 456:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 457:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 458:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 459:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 462:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 463:8   ✖  Expected "position" to come before "z-index"                      order/properties-order                   
+ 463:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 464:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 465:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 466:8   ✖  Expected "width" to come before "height"                          order/properties-order                   
+ 466:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 467:8   ✖  Expected "display" to come before "width"                         order/properties-order                   
+ 467:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 468:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 469:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 470:8   ✖  Expected "left" to come before "justify-content"                  order/properties-order                   
+ 470:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 471:8   ✖  Expected "top" to come before "left"                              order/properties-order                   
+ 471:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 472:8   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 472:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 473:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 474:12  ✖  Expected indentation of 12 spaces                                 indentation                              
+ 475:12  ✖  Expected indentation of 12 spaces                                 indentation                              
+ 476:12  ✖  Expected "height" to come before "background-color"               order/properties-order                   
+ 476:12  ✖  Expected indentation of 12 spaces                                 indentation                              
+ 477:8   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 478:7   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 478:7   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 479:8   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 480:8   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 481:7   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 482:4   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 484:4   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 485:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 486:5   ✖  Expected "position" to come before "z-index"                      order/properties-order                   
+ 486:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 487:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 488:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 489:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 490:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 491:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 492:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 492:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 493:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 494:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 495:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 495:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 496:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 497:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 498:9   ✖  Expected "align-items" to come before "justify-content"           order/properties-order                   
+ 498:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 499:9   ✖  Expected "position" to come before "align-items"                  order/properties-order                   
+ 499:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 500:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 501:9   ✖  Expected "left" to come before "transform"                        order/properties-order                   
+ 501:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 502:9   ✖  Expected "top" to come before "left"                              order/properties-order                   
+ 502:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 503:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 504:9   ✖  Expected "background-color" to come before "opacity"              order/properties-order                   
+ 504:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 505:9   ✖  Expected "padding" to come before "background-color"              order/properties-order                   
+ 505:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 506:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 507:9   ✖  Expected "margin-left" to come before "visibility"                order/properties-order                   
+ 507:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 508:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 509:9   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 509:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 510:13  ✖  Expected indentation of 16 spaces                                 indentation                              
+ 511:13  ✖  Expected indentation of 16 spaces                                 indentation                              
+ 512:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 513:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 513:6   ✖  Expected newline after "}"                                        block-closing-brace-newline-after        
+ 513:6   ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+ 515:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 516:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 517:9   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 517:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 517:20  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 518:13  ✖  Expected indentation of 16 spaces                                 indentation                              
+ 519:9   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 520:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 521:4   ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+ 522:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 523:6   ✖  Expected indentation of 12 spaces                                 indentation                              
+ 524:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 527:5   ✖  Expected selector ".navigation__item" to come before selector     no-descending-specificity                
+            ".navigation__item:last-child"                                                                             
+ 527:5   ✖  Unexpected duplicate selector ".navigation__item", first used at  no-duplicate-selectors                   
+            line 515                                                                                                   
+ 531:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 532:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 533:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 535:14  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 541:5   ✖  Expected selector ".footer__list" to come before selector         no-descending-specificity                
+            ".item.open .footer__list"                                                                                 
+ 541:5   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 542:5   ✖  Expected selector ".social__list" to come before selector         no-descending-specificity                
+            ".item.open .social__list"                                                                                 
+ 546:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 547:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 548:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 549:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 550:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 550:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 550:13  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 551:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 552:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 553:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 554:1   ✖  Expected empty line before rule                                   rule-empty-line-before                   
+ 554:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 554:17  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 555:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 556:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 557:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 559:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 560:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 561:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 563:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 563:15  ✖  Expected single space before "{"                                  block-opening-brace-space-before         
+ 564:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 565:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 565:2   ✖  Expected newline after "}"                                        block-closing-brace-newline-after        
+ 565:2   ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+ 567:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 568:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 569:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 571:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 572:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 573:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 575:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 576:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 577:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 579:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 580:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 581:5   ✖  Expected "max-width" to come before "padding"                     order/properties-order                   
+ 581:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 582:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 584:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 585:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 586:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 588:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 589:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 590:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 592:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 593:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 594:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 596:1   ✖  Expected no more than 1 empty line                                max-empty-lines                          
+ 597:1   ✖  Unexpected duplicate selector ".black__title", first used at      no-duplicate-selectors                   
+            line 592                                                                                                   
+ 597:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 598:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 599:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 599:2   ✖  Expected newline after "}"                                        block-closing-brace-newline-after        
+ 599:2   ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+ 601:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 602:5   ✖  Unexpected longhand value '80px 55px 0 55px' instead of '80px     shorthand-property-no-redundant-values   
+            55px 0'                                                                                                    
+ 602:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 603:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 605:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 606:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 607:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 609:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 610:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 611:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 613:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 614:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 615:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 616:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 618:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 619:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 620:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 622:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 623:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 624:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 626:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 627:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 628:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 630:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 631:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 632:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 634:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 635:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 636:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 637:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 638:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 639:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 640:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 642:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 643:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 644:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 646:1   ✖  Expected selector ".footer__list" to come before selector         no-descending-specificity                
+            ".item.open .footer__list"                                                                                 
+ 646:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 647:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 648:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 650:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 651:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 652:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 656:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 657:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 658:5   ✖  Expected "width" to come before "height"                          order/properties-order                   
+ 658:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 659:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 661:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 662:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 663:5   ✖  Expected "max-width" to come before "padding-left"                order/properties-order                   
+ 663:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 664:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 666:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 668:6   ✖  Expected newline after "}"                                        block-closing-brace-newline-after        
+ 668:6   ✖  Unexpected whitespace at end of line                              no-eol-whitespace                        
+ 670:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 674:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 675:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 676:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 678:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 679:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 680:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 681:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 683:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 684:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 685:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 687:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 688:5   ✖  Expected indentation of 8 spaces                                  indentation                              
+ 689:1   ✖  Expected indentation of 4 spaces                                  indentation                              
+ 690:1   ✖  Unexpected missing end-of-source newline                          no-missing-end-of-source-newline         
+
+src/scss/_fonts.scss
+ 1:89  ✖  Unexpected missing end-of-source newline   no-missing-end-of-source-newline
+
+src/scss/_forms.scss
+   4:5   ✖  Expected "font-size" to come before "background-color"           order/properties-order                    
+   7:5   ✖  Expected "color" to come before "letter-spacing"                 order/properties-order                    
+   8:5   ✖  Expected empty line before at-rule                               at-rule-empty-line-before                 
+   9:6   ✖  Expected empty line before rule                                  rule-empty-line-before                    
+   9:6   ✖  Expected indentation of 4 spaces                                 indentation                               
+  11:9   ✖  Expected "text-decoration" to come before "background-color"     order/properties-order                    
+  12:6   ✖  Expected indentation of 4 spaces                                 indentation                               
+  17:5   ✖  Expected "padding" to come before "color"                        order/properties-order                    
+  18:5   ✖  Expected "display" to come before "padding"                      order/properties-order                    
+  23:5   ✖  Unexpected value "none" for property "border"                    declaration-property-value-disallowed-list
+  24:5   ✖  Expected "background-color" to come before "border"              order/properties-order                    
+  30:5   ✖  Expected "top" to come before "right"                            order/properties-order                    
+  30:9   ✖  Expected single space after ":"                                  declaration-colon-space-after             
+  31:16  ✖  Expected single space after ":"                                  declaration-colon-space-after             
+  33:5   ✖  Expected "text-transform" to come before "transform"             order/properties-order                    
+  38:5   ✖  Expected "width" to come before "height"                         order/properties-order                    
+  39:43  ✖  Unexpected leading zero                                          number-leading-zero                       
+  41:5   ✖  Expected "background-color" to come before "border-radius"       order/properties-order                    
+  47:5   ✖  Unexpected value "none" for property "border"                    declaration-property-value-disallowed-list
+  48:5   ✖  Expected "display" to come before "border"                       order/properties-order                    
+  51:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  57:3   ✖  Unexpected empty line before closing brace                       block-closing-brace-empty-line-before     
+  57:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  59:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  59:19  ✖  Expected single space after "+"                                  selector-combinator-space-after           
+  59:19  ✖  Expected single space before "+"                                 selector-combinator-space-before          
+  63:5   ✖  Expected "max-width" to come before "user-select"                order/properties-order                    
+  66:5   ✖  Expected "font-size" to come before "text-transform"             order/properties-order                    
+  67:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  69:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  69:19  ✖  Expected single space after "+"                                  selector-combinator-space-after           
+  69:19  ✖  Expected single space before "+"                                 selector-combinator-space-before          
+  71:5   ✖  Expected "display" to come before "content"                      order/properties-order                    
+  74:5   ✖  Expected "flex-shrink" to come before "height"                   order/properties-order                    
+  75:5   ✖  Expected "flex-grow" to come before "flex-shrink"                order/properties-order                    
+  77:5   ✖  Expected "background-repeat" to come before "border"             order/properties-order                    
+  80:5   ✖  Expected "position" to come before "background-size"             order/properties-order                    
+  81:5   ✖  Unexpected longhand value '-40px 20px 0 20px' instead of '-40px  shorthand-property-no-redundant-values    
+            20px 0'                                                                                                    
+  82:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  84:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  84:27  ✖  Expected single space after "+"                                  selector-combinator-space-after           
+  84:27  ✖  Expected single space before "+"                                 selector-combinator-space-before          
+  86:5   ✖  Expected "background-color" to come before "border-color"        order/properties-order                    
+  88:3   ✖  Expected indentation of 0 spaces                                 indentation                               
+  91:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+  92:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+  93:3   ✖  Expected "justify-content" to come before "text-align"           order/properties-order                    
+  93:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+  94:2   ✖  Expected newline after "}"                                       block-closing-brace-newline-after         
+  94:2   ✖  Unexpected whitespace at end of line                             no-eol-whitespace                         
+  98:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+  99:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 100:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 101:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 102:3   ✖  Unexpected value "none" for property "border"                    declaration-property-value-disallowed-list
+ 102:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 103:3   ✖  Expected "height" to come before "border"                        order/properties-order                    
+ 103:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 104:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 108:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 109:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 110:3   ✖  Expected "margin-left" to come before "background"               order/properties-order                    
+ 110:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 114:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 115:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 119:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 120:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 121:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 122:3   ✖  Expected "border" to come before "border-radius"                 order/properties-order                    
+ 122:3   ✖  Unexpected value "none" for property "border"                    declaration-property-value-disallowed-list
+ 122:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 123:3   ✖  Expected "font-size" to come before "border"                     order/properties-order                    
+ 123:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 124:3   ✖  Expected "margin-left" to come before "font-size"                order/properties-order                    
+ 124:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 128:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 132:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 136:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 137:5   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 138:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 140:1   ✖  Expected no more than 1 empty line                               max-empty-lines                           
+ 141:1   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 141:17  ✖  Expected single space after "+"                                  selector-combinator-space-after           
+ 141:17  ✖  Expected single space before "+"                                 selector-combinator-space-before          
+ 142:3   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 143:1   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 145:1   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 146:3   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 147:1   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 149:1   ✖  Unexpected duplicate selector ".footer__button", first used at   no-duplicate-selectors                    
+            line 27                                                                                                    
+ 149:1   ✖  Expected empty line before rule                                  rule-empty-line-before                    
+ 150:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 154:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 155:5   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 156:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 158:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 159:5   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 160:5   ✖  Expected "font-size" to come before "background-color"           order/properties-order                    
+ 160:5   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 161:5   ✖  Expected "width" to come before "font-size"                      order/properties-order                    
+ 161:5   ✖  Expected indentation of 8 spaces                                 indentation                               
+ 162:3   ✖  Expected indentation of 4 spaces                                 indentation                               
+ 163:1   ✖  Unexpected missing end-of-source newline                         no-missing-end-of-source-newline          
+
+src/scss/_icons.scss
+ 1:1  ✖  Unexpected empty source   no-empty-source
+
+src/scss/_typography.scss
+ 13:5   ✖  Expected "font-weight" to come before "color"          order/properties-order          
+ 19:5   ✖  Expected indentation of 0 spaces                       indentation                     
+ 23:5   ✖  Expected "font-size" to come before "color"            order/properties-order          
+ 25:5   ✖  Expected "font-weight" to come before "line-height"    order/properties-order          
+ 28:2   ✖  Expected single space before "{"                       block-opening-brace-space-before
+ 41:18  ✖  Unexpected leading zero                                number-leading-zero             
+ 42:21  ✖  Unexpected leading zero                                number-leading-zero             
+ 43:5   ✖  Expected "color" to come before "letter-spacing"       order/properties-order          
+ 48:5   ✖  Expected "font-size" to come before "letter-spacing"   order/properties-order          
+ 50:5   ✖  Expected empty line before rule                        rule-empty-line-before          
+ 60:1   ✖  Expected no more than 1 empty line                     max-empty-lines                 
+
+src/scss/_variables.scss
+  3:14  ✖  Expected newline after ";" in a multi-line declaration block   declaration-block-semicolon-newline-after
+  3:14  ✖  Unexpected whitespace at end of line                           no-eol-whitespace                        
+  5:22  ✖  Expected newline after ";" in a multi-line declaration block   declaration-block-semicolon-newline-after
+  5:22  ✖  Unexpected whitespace at end of line                           no-eol-whitespace                        
+  6:10  ✖  Expected "#AAAAAA" to be "#aaaaaa"                             color-hex-case                           
+  6:10  ✖  Expected "#AAAAAA" to be "#AAA"                                color-hex-length                         
+  6:18  ✖  Expected newline after ";" in a multi-line declaration block   declaration-block-semicolon-newline-after
+  6:18  ✖  Unexpected whitespace at end of line                           no-eol-whitespace                        
+  7:10  ✖  Expected "#1A1A1A" to be "#1a1a1a"                             color-hex-case                           
+  8:11  ✖  Expected "#46856E" to be "#46856e"                             color-hex-case                           
+ 13:8   ✖  Expected "#F5F5F5" to be "#f5f5f5"                             color-hex-case                           
+ 14:8   ✖  Expected "#2B2B2B" to be "#2b2b2b"                             color-hex-case                           
+ 15:8   ✖  Expected "#F2F2F2F2" to be "#f2f2f2f2"                         color-hex-case                           
+ 16:8   ✖  Expected "#46856E" to be "#46856e"                             color-hex-case                           
+ 16:15  ✖  Unexpected missing end-of-source newline                       no-missing-end-of-source-newline
+

@@ -531,11 +531,11 @@ span:hover {
     width: 100%;
     background-color: #2B2B2B;
     margin-top: 80px;
+    position: relative;
 }
 
 .footer__section {
     padding: 100px 15px;
-    position: relative;
 }
 
 .footer__content {
@@ -1396,7 +1396,7 @@ ul {
 
 .footer__button {
     position: absolute;
-    right: -120px;
+    right: -4%;
     top: 75%;
     text-align: center;
     -webkit-transform: rotate(-90deg);

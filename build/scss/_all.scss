@@ -32,7 +32,7 @@ main {
     z-index: 100;
 }
 
-.header__bottom {
+.border {
     border-bottom: 1px solid $color6;
     width: 100%;
 }
@@ -57,21 +57,21 @@ main {
 
 .header__white {
     display: flex;
-    @include flex(null, null, space-between, center);
+    justify-content: space-between;
+    align-items: center;
     padding: 25px 0 25px 55px;
 }
 
 .header__logo {
     z-index: 100;
     &:hover {
-        opacity: .7;
+        opacity: 0.7;
     }
 }
 
 .navigation__list {
     display: flex;
-    margin: 0 50px 0 -100px;
-    width: 410px;
+    margin-left: -100px;
 }
 
 .navigation__item {
@@ -100,18 +100,19 @@ main {
 }
 
 .location__link {
-    margin-left: 20px;
-    text-transform: uppercase;
-    color: $color5;
+ margin-left: 20px;
+ text-transform: uppercase;
+ color: $color5;
 }
 .fa-solid {
-    color: $color5; 
+color: $color5; 
 }
 
-.location__item span {
-    transition: color .5s ease;
+
+span {
+    transition: color 0.5s ease;
     &:hover {
-        opacity: .7;
+        opacity: 0.7;
     }
 }
 
@@ -133,7 +134,9 @@ main {
     padding-left: 150px;
     max-width: 680px;
 }
+
 // ===============four-rooms
+
 .four-rooms__list {
     display: flex;
     flex-wrap: wrap;
@@ -159,12 +162,12 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    @include flex(null, column, null, center);
     padding: 115px 0 85px 0;
 }
 .icons__list {
     display: flex;
-    @include flex(wrap, null, space-between, null);
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .brands__subtitle {
@@ -178,9 +181,9 @@ main {
 }
 
 .icons__link {
-    transition: color .5 ease;
+    transition: color 0.5 ease;
     &:hover {
-        opacity: .7;
+        opacity: 0.7;
     }
 }
 
@@ -188,6 +191,7 @@ main {
     max-width: 100%;
 }
 // ===products
+
 .products {
     display: flex;
     flex-direction: column;
@@ -232,7 +236,9 @@ main {
     font-size: $fs-md;
     line-height: 24px;
 }
+
 // ============reviews
+
 .reviews__section{
     height: 900px;
 }
@@ -261,10 +267,9 @@ main {
 .reviews__icon {
     @include transition(opacity);
     &:hover {
-        opacity: .7;
+        opacity: 0.7;
     }
 }
-
 .reviews__sign  {
     color: $color4;
 }
@@ -276,10 +281,11 @@ main {
 .stars__item {
     @include transition(opacity);
     &:hover{
-        opacity: .7;
+        opacity: 0.7;
     }
 }
 // =======work
+
 .work__section {
     padding-top: 140px;
 }
@@ -307,7 +313,6 @@ main {
     padding: 0 90px;
     width: 40%;
 }
-
 .img-work {
     width: 60%;
 }
@@ -325,10 +330,12 @@ main {
     line-height: 24px;
 }
 
+
 .block1 {
     order: 2;
 }
 // ======risk
+
 .risk__img {
     margin-bottom: 150px;
 }
@@ -337,7 +344,8 @@ main {
     background-color: $bgc3;
     background-repeat: 2px;
     display: flex;
-    @include flex(null, column, null, center);
+    flex-direction: column;
+    text-align: center;
     margin: 230px 0 0 40px;
     margin: 100px auto;
 }
@@ -351,7 +359,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    @include flex(null, null, center, center);
     margin: 65px 0 65px -165px;
     &.slider {
         .risk__item {
@@ -388,10 +395,11 @@ main {
     background-color: $bgc2;
     margin-top: 80px;
     position: relative;
+
 }
 
 .footer__section {
-    padding: 100px 0;
+    padding: 100px 15px;
 }
 
 .footer__content {
@@ -402,7 +410,7 @@ main {
 .footer__logo {
     @include transition(opacity);
     &:hover {
-        opacity: .7;
+        opacity: 0.7;
     }
 }
 
@@ -417,6 +425,7 @@ main {
 
 .addres {
     line-height: 15px;
+    font-size: get-vw($fs-sm);
 }
 
 .social__list {
@@ -435,44 +444,46 @@ main {
 }
 
 // ==============media
+
 @media (max-width: 768px) {
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: $bgc3;
-    z-index: 999;
-}
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: $bgc3;
+        z-index: 999;
+    }
 
 .header__top {
     position: fixed;
     right: 0;
 }
 
-.hamburger {
-    z-index: 100;
-    position: relative;
-    flex: 0 0 60px;
-    height: 40px;
-    width: 60px;
-    display: flex;
-    @include flex(null, column, space-between, null);
-    left: 85%;
-    top: 15%;
-    &::before,
-    &::after {
-        content: "";
-        background-color: $bgc2;
-        height: 4px;
-    }
-    & span {
-    height: 4px;
-    background-color: $bgc2;
-    }
-}
+    .hamburger {
+       z-index: 100;
+       position: relative;
+       flex: 0 0 60px;
+       height: 40px;
+       width: 60px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       left: 85%;
+       top: 15%;
+       &::before,
+       &::after {
+           content: "";
+           background-color: $bgc2;
+           height: 4px;
+       }
+      & span {
+       height: 4px;
+       background-color: $bgc2;
+      }
+   }
 
-.navigation {
+   .navigation {
     z-index: 50;
     position: fixed;
     top: 0;
@@ -484,7 +495,9 @@ header {
         padding: 35px;
     }
     &__list {
-        @include flex(null, column, center, center);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         transform: translateX(-50%);
         left: 75%;
@@ -513,25 +526,22 @@ header {
     }
     }
 
-.navigation__item {
-    padding-left: 0;
+    .navigation__item {
+        padding-left: 0;
     }
 
-.location__list {
-    display: none;
+.border {
+    border-bottom: none;
 }
 
 // ====
 .design__img {
     margin-top: 105px;
 }
-
-
 .design__text{
     max-width: 400px;
     padding-left: 80px;
 }
-
 .four-rooms__list{
     padding-top: 50px;
     margin: 0 auto;
@@ -574,6 +584,7 @@ header {
     margin-left: 105px;
 }
 
+
 .black__title {
     margin-bottom: 30px;
 } 
@@ -587,7 +598,7 @@ header {
 }
 
 .work__items {
-    @include flex(null, column, null, null);
+    flex-direction: column;
     margin-bottom: 35px;
 }
 
@@ -597,7 +608,7 @@ header {
 }
 
 .block2{
-    @include flex(null, column-reverse, null, null);
+    flex-direction: column-reverse;
 }
 
 .products {
@@ -618,11 +629,12 @@ header {
 // =============
 .footer__content {
     display: flex;
-    @include flex(null, column, null, flex-start);
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .footer__column.mobile {
-    @include flex(null, column, null, null);
+    flex-direction: column;
     }
 
 .footer__column.mobile .item {
@@ -654,7 +666,7 @@ header {
 
 .footer__list,
 .social__list {
-    display: none;
+display: none;
 }
 }
 
@@ -664,22 +676,17 @@ header {
     width: 44px;
 }
 
-.design__content {
-    @include flex(null, column, space-between, start);
-}
-
-
 .design__text {
-    max-width: 100%;
-    padding: 30px 0 0 0;
+    padding-left: 50px;
+    max-width: 300px;
 }
 
 .four-rooms__item {
-    width: 100%;
+        width: 100%;
     } 
 
 .icons__item {
-    width: 30%;
+        width: 30%;
     }
 
 .product__list {

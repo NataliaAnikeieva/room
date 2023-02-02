@@ -1,7 +1,9 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular&display=swap);
 body {
-    font: 300 1.1111111111vw "Roboto";
+    font-size: calc(12px + 4 * ((100vw - 320px) / 1020));
+    font-family: "Roboto";
+    font-weight: 400;
     color: #AAAAAA;
 }
 
@@ -15,29 +17,30 @@ h5 {
 
 h2 {
     font-size: 3.3333333333vw;
+    font-size: calc(32px + 16 * ((100vw - 320px) / 1020));
     line-height: 1.2;
 }
 
 h3 {
     color: #000;
-    font-size: 3.1944444444vw;
+    font-size: calc(32px + 14 * ((100vw - 320px) / 1020));
     line-height: 1.1;
     font-weight: 400;
 }
 
 h4 {
-    font-size: 2.2222222222vw;
+    font-size: calc(16px + 30 * ((100vw - 320px) / 1020));
     line-height: 1.2;
 }
 
 h5 {
     font-family: "Roboto";
-    font-size: 1.6666666667vw;
+    font-size: calc(16px + 8 * ((100vw - 320px) / 1020));
     line-height: 1;
 }
 
 h6 {
-    font-size: 0.9722222222vw;
+    font-size: calc(12px + 0 * ((100vw - 320px) / 1020));
     line-height: 0.6;
     letter-spacing: 0.5px;
     color: #fff;
@@ -45,7 +48,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: 0.8333333333vw;
+    font-size: calc(12px + 0 * ((100vw - 320px) / 1020));
     color: #AAAAAA;
 }
 a:hover {
@@ -53,7 +56,7 @@ a:hover {
 }
 
 p {
-    font-size: calc(12px + 4 * ((100vw - 320px) / 960));
+    font-size: calc(12px + 4 * ((100vw - 320px) / 1020));
     line-height: 1.5;
 }
 
@@ -93,7 +96,7 @@ main {
     z-index: 100;
 }
 
-.border {
+.header__bottom {
     border-bottom: 1px solid #e0e0e0;
     width: 100%;
 }
@@ -126,6 +129,7 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -146,7 +150,8 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: -100px;
+    margin: 0 50px 0 -100px;
+    width: 410px;
 }
 
 .navigation__item {
@@ -189,12 +194,12 @@ main {
     color: #000;
 }
 
-span {
+.location__item span {
     -webkit-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
     transition: color 0.5s ease;
 }
-span:hover {
+.location__item span:hover {
     opacity: 0.7;
 }
 
@@ -253,12 +258,18 @@ span:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 115px 0 85px 0;
 }
 
 .icons__list {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: flex;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -472,11 +483,14 @@ span:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 230px 0 0 40px;
     margin: 100px auto;
 }
@@ -496,6 +510,9 @@ span:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 65px 0 65px -165px;
 }
 .risk__list-col.slider .risk__item {
@@ -535,7 +552,7 @@ span:hover {
 }
 
 .footer__section {
-    padding: 100px 15px;
+    padding: 100px 0;
 }
 
 .footer__content {
@@ -565,7 +582,6 @@ span:hover {
 
 .addres {
     line-height: 15px;
-    font-size: 0.8333333333vw;
 }
 
 .social__list {
@@ -609,6 +625,7 @@ span:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -641,6 +658,9 @@ span:hover {
         padding: 35px;
     }
     .navigation__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -682,8 +702,8 @@ span:hover {
     .navigation__item {
         padding-left: 0;
     }
-    .border {
-        border-bottom: none;
+    .location__list {
+        display: none;
     }
     .design__img {
         margin-top: 105px;
@@ -734,6 +754,9 @@ span:hover {
         padding: 50px 20px;
     }
     .work__items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -745,6 +768,9 @@ span:hover {
         width: 100%;
     }
     .block2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
             -ms-flex-direction: column-reverse;
@@ -766,6 +792,7 @@ span:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -775,6 +802,9 @@ span:hover {
                 align-items: flex-start;
     }
     .footer__column.mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -813,9 +843,24 @@ span:hover {
         height: 30px;
         width: 44px;
     }
+    .design__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+    }
     .design__text {
-        padding-left: 50px;
-        max-width: 300px;
+        max-width: 100%;
+        padding: 30px 0 0 0;
     }
     .four-rooms__item {
         width: 100%;
@@ -1397,7 +1442,7 @@ ul {
 .footer__button {
     position: absolute;
     right: -4%;
-    top: 75%;
+    top: 80%;
     text-align: center;
     -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
@@ -1459,7 +1504,7 @@ ul {
     background-position: center center;
     background-size: 50% 50%;
     position: relative;
-    margin: -40px 20px 0 20px;
+    margin: -20px 20px 0 20px;
 }
 
 .custom-checkbox:checked + label::before {
@@ -1491,13 +1536,13 @@ ul {
 
 .slick-prev {
     left: 0;
-    background: url("../img/arrow-left.svg") 0 0 no-repeat;
+    background: url("../img/arrow-left.png") 0 0 no-repeat;
     margin-left: 50px;
 }
 
 .slick-next {
     right: 0;
-    background: url("../img/arrow-right.svg") 0 0 no-repeat;
+    background: url("../img/arrow-right.png") 0 0 no-repeat;
 }
 
 .slick-dots button {
@@ -1525,7 +1570,7 @@ ul {
         max-width: 300px;
     }
     .custom-checkbox + label::before {
-        margin: -10px 20px 0 0;
+        margin: 0 10px 0 0;
     }
 }
 @media (max-width: 576px) {
@@ -1539,7 +1584,9 @@ ul {
     }
 }
 body {
-    font: 300 1.1111111111vw "Roboto";
+    font-size: calc(12px + 4 * ((100vw - 320px) / 1020));
+    font-family: "Roboto";
+    font-weight: 400;
     color: #AAAAAA;
 }
 
@@ -1553,29 +1600,30 @@ h5 {
 
 h2 {
     font-size: 3.3333333333vw;
+    font-size: calc(32px + 16 * ((100vw - 320px) / 1020));
     line-height: 1.2;
 }
 
 h3 {
     color: #000;
-    font-size: 3.1944444444vw;
+    font-size: calc(32px + 14 * ((100vw - 320px) / 1020));
     line-height: 1.1;
     font-weight: 400;
 }
 
 h4 {
-    font-size: 2.2222222222vw;
+    font-size: calc(16px + 30 * ((100vw - 320px) / 1020));
     line-height: 1.2;
 }
 
 h5 {
     font-family: "Roboto";
-    font-size: 1.6666666667vw;
+    font-size: calc(16px + 8 * ((100vw - 320px) / 1020));
     line-height: 1;
 }
 
 h6 {
-    font-size: 0.9722222222vw;
+    font-size: calc(12px + 0 * ((100vw - 320px) / 1020));
     line-height: 0.6;
     letter-spacing: 0.5px;
     color: #fff;
@@ -1583,7 +1631,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    font-size: 0.8333333333vw;
+    font-size: calc(12px + 0 * ((100vw - 320px) / 1020));
     color: #AAAAAA;
 }
 a:hover {
@@ -1591,7 +1639,7 @@ a:hover {
 }
 
 p {
-    font-size: calc(12px + 4 * ((100vw - 320px) / 960));
+    font-size: calc(12px + 4 * ((100vw - 320px) / 1020));
     line-height: 1.5;
 }
 /*# sourceMappingURL=maps/main.css.map */

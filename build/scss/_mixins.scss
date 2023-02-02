@@ -56,7 +56,7 @@ $vw-context: $vw-viewport * 0.01 * 1px;
 	flex-wrap: $wrap;
 }
 
-$maxWidth: 1340;
+$maxWidth: 1280;
 @mixin font($pcSize, $mobSize) {
  $addSize: $pcSize - $mobSize;
  $maxWidth: $maxWidth - 320;

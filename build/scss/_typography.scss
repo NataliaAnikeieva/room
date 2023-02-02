@@ -1,9 +1,7 @@
 @import "../scss/_variables";
 
 body {
-    @include font($fs-md,$fs-sm); 
-    font-family: $main-font;
-    font-weight: 400;
+    font: 300 get-vw($fs-md) $main-font;
     color: $color1;
 }
 
@@ -17,30 +15,29 @@ h5 {
 
 h2 {
     font-size: get-vw($fs-xxlg+2);
-    @include font($fs-xxlg+2,$fs-xlg);
     line-height: 1.2;
     }
 
 h3 {
     color: $color5;
-    @include font($fs-xxlg, $fs-xlg);
+    font-size: get-vw($fs-xxlg);
     line-height: 1.1;
     font-weight: 400;
 }
 
 h4{
-    @include font($fs-xxlg, $fs-md);
+    font-size: get-vw($fs-xlg);
     line-height: 1.2;
 }
 
 h5 {
     font-family: $main-font;
-    @include font($fs-md+8, $fs-md);
+    font-size: get-vw($fs-md+8);
     line-height: 1;
 }
 
 h6 {
-    @include font($fs-sm, $fs-sm);
+    font-size: get-vw($fs-sm+2);
     line-height: 0.6;
     letter-spacing: 0.5px;
     color: $color4;
@@ -48,7 +45,7 @@ h6 {
 
 a {
     letter-spacing: 2px;
-    @include font($fs-sm, $fs-sm);
+    font-size: get-vw($fs-sm);
     color: $color1;
     &:hover {
         text-decoration: underline;
